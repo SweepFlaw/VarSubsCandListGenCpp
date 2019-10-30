@@ -14,6 +14,8 @@ public:
     static std::string getCurStr(CXCursor c, bool throwException=false);
     static std::string getFileStr(CXFile f, bool throwException=false);
     static std::string getTokenStr(CXTranslationUnit tru, CXToken t, bool throwException=false);
+    static std::string getTypeStr(CXCursor c, bool throwException=false);
+    static std::string getTypeStr(CXType c, bool throwException=false);
 
     static bool isCursorOnFile(CXCursor c, std::string filename, bool throwException=false);
     static bool isCursorScopeSeparatePoint(CXCursor c);

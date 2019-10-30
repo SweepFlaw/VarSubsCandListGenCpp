@@ -3,17 +3,23 @@
 
 #include <clang-c/Index.h>
 
+#include <string>
+
 class VarInfo {
 public:
-    char *varStr;
-    char *typeStr;
+    CXCursor cursor;
+    CXCursorKind ckind;
+    CXSourceLocation location;
+    CXType ctype;
+
+    std::string varStr;
     CXFile cfile;
     unsigned line;
     unsigned column;
     unsigned offset;
-    CXSourceLocation location;
+    bool initFail;
     
-    VarInfo(CXCursor c);
+    VarInfo(CXCursor c, bool throwException=false);
     
 };
 

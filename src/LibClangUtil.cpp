@@ -51,6 +51,20 @@ string LibClangUtil::getTokenStr(CXTranslationUnit tru, CXToken t, bool throwExc
     return s;
 }
 
+string LibClangUtil::getTypeStr(CXCursor c, bool throwException){
+    CXString cxs = clang_getTypeSpelling(clang_getCursorType(c));
+    string s = getStr(cxs, throwException);
+    clang_disposeString(cxs);
+    return s;
+}
+
+string LibClangUtil::getTypeStr(CXType ct, bool throwException){
+    CXString cxs = clang_getTypeSpelling(ct);
+    string s = getStr(cxs, throwException);
+    clang_disposeString(cxs);
+    return s;
+}
+
 bool LibClangUtil::isCursorOnFile(CXCursor c, string filename, bool throwException){
     // get the given cursor's file location
     CXSourceLocation loc = clang_getCursorLocation(c);
