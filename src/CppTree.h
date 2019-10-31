@@ -15,7 +15,9 @@ public:
     ~CppTree();
 
     CXCursor getCursor();
-    VarSubsCandMap getVarSubsCandMap();
+
+    using vSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
+    vSubsCandMap getVarSubsCandMap();
 };
 
 

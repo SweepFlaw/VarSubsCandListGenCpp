@@ -24,12 +24,8 @@ namespace std {
     };
 }
 
-class VarSubsCandMap {
-public:
-    using vSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
-    vSubsCandMap vscm;
-    
-    VarSubsCandMap(CXCursor c);
-};
+std::unordered_map<CXCursor, std::vector<CXCursor>> makeVarSubsCandMap(CXCursor c);
+
+
 
 #endif

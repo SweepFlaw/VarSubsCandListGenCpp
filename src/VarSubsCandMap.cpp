@@ -1,8 +1,10 @@
 #include <src/VarSubsCandMap.h>
 
 using namespace std;
+using vSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
 
 static std::vector<std::pair<CXCursor, std::vector<CXCursor>>> scstack;
+static vSubsCandMap vscm;
 
 static CXChildVisitResult vscm_visitFunc(CXCursor c, CXCursor parent, CXClientData client_data){
 
@@ -14,12 +16,9 @@ static CXChildVisitResult vscm_visitFunc(CXCursor c, CXCursor parent, CXClientDa
     return CXChildVisit_Recurse;
 }
 
-VarSubsCandMap::VarSubsCandMap(CXCursor c) 
-    : vscm{}
-{
+vSubsCandMap makeVarSubsCandMap(CXCursor c){
+
     //TODO
-
-
-    // DUMMY CODES
     clang_visitChildren(c, vscm_visitFunc, nullptr);
+    return vscm;
 }

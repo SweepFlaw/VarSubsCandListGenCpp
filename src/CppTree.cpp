@@ -29,6 +29,7 @@ CXCursor CppTree::getCursor(){
     return clang_getTranslationUnitCursor(trunit);
 }
 
-VarSubsCandMap CppTree::getVarSubsCandMap(){
-    return VarSubsCandMap(getCursor());
+using vSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
+vSubsCandMap CppTree::getVarSubsCandMap(){
+    return makeVarSubsCandMap(getCursor());
 }
