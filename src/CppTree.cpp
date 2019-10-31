@@ -5,8 +5,7 @@
 
 using namespace std;
 
-CppTree::CppTree(char* cppFilename)
-{
+CppTree::CppTree(char* cppFilename){
     cindex = clang_createIndex(0,0);
     trunit = clang_parseTranslationUnit(
         cindex,
@@ -21,13 +20,15 @@ CppTree::CppTree(char* cppFilename)
     return;
 }
 
-CppTree::~CppTree()
-{
+CppTree::~CppTree(){
     clang_disposeTranslationUnit(trunit);
     clang_disposeIndex(cindex);
 }
 
-CXCursor CppTree::getCursor()
-{
+CXCursor CppTree::getCursor(){
     return clang_getTranslationUnitCursor(trunit);
+}
+
+VarSubsCandMap CppTree::getVarSubsCandMap(){
+    return VarSubsCandMap(getCursor());
 }
