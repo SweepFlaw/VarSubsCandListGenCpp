@@ -11,10 +11,14 @@ INCLUDE_OPT=-I"$(INCLUDE_DIR)" -I"$(BASE_DIR)"
 LINK_OPT=-lclang
 SRC_FILES=$(SRC_DIR)/*.cpp
 TEST_FILE=$(TEST_DIR)/test.cpp
+TEST_COMPILE_OUT_FILE=$(TEST_DIR)/test
 
 test:
 	$(CC) $(INCLUDE_OPT) $(LINK_OPT) $(SRC_FILES) $(TEST_FILE) -o $(TEST_DIR)/test
-	$(TEST_DIR)/test
+	$(TEST_COMPILE_OUT_FILE)
 
 clean:
 	rm -r $(BIN_DIR)/*
+
+testclean:
+	rm $(TEST_COMPILE_OUT_FILE)

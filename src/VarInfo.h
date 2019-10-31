@@ -3,6 +3,7 @@
 
 #include <clang-c/Index.h>
 
+#include <ostream>
 #include <string>
 
 class VarInfo {
@@ -11,16 +12,17 @@ public:
     CXCursorKind ckind;
     CXSourceLocation location;
     CXType ctype;
-
     std::string varStr;
+    bool initFail;
+
     CXFile cfile;
     unsigned line;
     unsigned column;
     unsigned offset;
-    bool initFail;
     
     VarInfo(CXCursor c, bool throwException=false);
     
+    void printReadableStr(std::ostream& os);
 };
 
 
