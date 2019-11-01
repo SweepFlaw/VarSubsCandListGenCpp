@@ -1,26 +1,27 @@
-#ifndef CPPSYNTH_VARINFO_H
-#define CPPSYNTH_VARINFO_H
+#ifndef CPPSYNTH_CURINFO_H
+#define CPPSYNTH_CURINFO_H
 
 #include <clang-c/Index.h>
 
 #include <ostream>
 #include <string>
 
-class VarInfo {
+class CurInfo {
 public:
     CXCursor cursor;
     CXCursorKind ckind;
     CXSourceLocation location;
     CXType ctype;
-    std::string varStr;
-    bool initFail;
+    std::string curStr;
+    bool isVariable;
+    bool isInvalid;
 
     CXFile cfile;
     unsigned line;
     unsigned column;
     unsigned offset;
     
-    VarInfo(CXCursor c, bool throwException=false);
+    CurInfo(CXCursor c);
     
     void printReadableStr(std::ostream& os);
 };
