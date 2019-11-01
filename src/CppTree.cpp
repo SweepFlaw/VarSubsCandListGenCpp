@@ -35,8 +35,6 @@ CppTree::vSubsCandMap CppTree::getVarSubsCandMap(){
     return makeVarSubsCandMap(cursor);
 }
 
-
-static int debug_childcount = 0;
 CppTree::curTree CppTree::getCursorTree(){
     curTree ctree;
 
@@ -83,7 +81,6 @@ CppTree::curTree CppTree::getCursorTree(){
     );
 
     vector<cursorWithRange>& cv = cldata.curVec;
-    cout << "debug - CppTree.cpp - cv.size():\t" << cv.size() << endl;
     std::sort(
         cv.begin(), 
         cv.end(), 
@@ -96,8 +93,6 @@ CppTree::curTree CppTree::getCursorTree(){
             return false;
         }
     );
-
-    std::cout << "debug - CppTree.cpp - breakpoint1" << endl;
 
     for(size_t i = 0; i < cv.size(); ++i){
         cursorWithRange targetCursorRange = cv[i];
@@ -123,48 +118,11 @@ CppTree::curTree CppTree::getCursorTree(){
             }
         }
 
-        bool debug_flag1 = false;
-        if(targetCursorRange.begin == 2438 && targetCursorRange.end == 2455){
-            cout << "debug - CppTree - find 'trans' token" << endl;
-            cout << parentCursorRange.begin << ' ' << parentCursorRange.end << endl;
-            debug_flag1 = true;
-        }
-
-        //if(
-        //        *(targetCursorRange.cur.data) == *(parentCursorRange.cur.data)
-        //    &&  targetCursorRange.cur.xdata == parentCursorRange.cur.xdata
-        //    &&  targetCursorRange.cur.kind == parentCursorRange.cur.kind
-        //){
-        //    if(debug_flag1){
-        //        cout << "debug - CppTree.cpp - NOOOOO" << endl;
-        //    }
-        //    debug_childcount++;
-        //    continue;
-        //}
         if(ctree.parent.count(targetCursorRange.cur) == 0){
             ctree.parent[targetCursorRange.cur] = parentCursorRange.cur;
             ctree.childs[parentCursorRange.cur].push_back(targetCursorRange.cur);
         }
-        else{
-
-            //std::cout << "debug - CppTree - parent Already Exists Case" << endl;
-            //std::cout << "parent information" << endl;
-            //CurInfo(parentCursorRange.cur).printReadableStr(cout);
-            //std::cout << "child information" << endl;
-            //CurInfo(targetCursorRange.cur).printReadableStr(cout);
-            //std::cout << "tangled parent information" << endl;
-            //CurInfo(ctree.parent.find(targetCursorRange.cur)->second).printReadableStr(cout);
-        }
-        //std::cout << "debug - CppTree - debug_childcount:\t" << debug_childcount << endl;
     }
-
-    //cout << "debug - CppTree.cpp - read cv vector:" << endl;
-    //for(auto i = 0 ;i < cv.size(); ++i){
-    //    auto debg = cv[i];
-    //    cout << debg.begin << '\t' << debg.end << endl;
-    //}
-
-    std::cout << "debug - CppTree.cpp - debug_childcount:\t" << debug_childcount << endl;
 
     return ctree;
 }
