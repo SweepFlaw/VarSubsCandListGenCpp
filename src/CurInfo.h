@@ -11,6 +11,7 @@ public:
     CXCursor cursor;
     CXCursorKind ckind;
     CXSourceLocation location;
+    CXSourceRange range;
     CXType ctype;
     std::string curStr;
     bool isVariable;

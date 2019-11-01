@@ -103,3 +103,14 @@ bool LibClangUtil::isCursorUeContent(CXCursor c){
     return clang_isUnexposed(ck);
 }
 
+CXSourceRange LibClangUtil::getCurRange(CXCursor c){
+    return clang_getCursorExtent(c);
+}
+
+void LibClangUtil::printCursorValue(CXCursor c, ostream& os){
+    os  << "Cursor kind     :\t"    << c.kind   << endl
+        << "Cursor xdata    :\t"    << c.xdata  << endl
+        << "Cursor data     :\t"    << *(c.data)   << endl
+    ;
+}
+

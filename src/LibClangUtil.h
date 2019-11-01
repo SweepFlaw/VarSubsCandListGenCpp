@@ -3,6 +3,7 @@
 
 #include <clang-c/Index.h>
 
+#include <ostream>
 #include <string>
 
 class LibClangUtil{
@@ -21,6 +22,10 @@ public:
     static bool isCursorScopeSeparatePoint(CXCursor c);
     static bool isCursorScopeSeparatePoint(CXCursorKind ck);
     static bool isCursorUeContent(CXCursor c);
+
+    static CXSourceRange getCurRange(CXCursor c);
+
+    static void printCursorValue(CXCursor c, std::ostream& os);
 
 };
 

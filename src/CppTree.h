@@ -15,23 +15,25 @@ class CppTree {
 public:
     CXIndex cindex;
     CXTranslationUnit trunit;
+    CXCursor cursor;
     std::string cppFilename;
 
     CppTree (const char* _cppFilename);
     ~CppTree();
 
-    CXCursor getCursor();
+    //CXCursor getCursor();
 
     using vSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
     vSubsCandMap getVarSubsCandMap();
 
     using curTree = 
-        std::unordered_map<
-            CXCursor,
-            std::pair<CXCursor, std::vector<CXCursor>>,
-            std::hash<CXCursor>,
-            std::equal_to<CXCursor>
-        >;
+        struct {
+            std::unordered_map<
+                CXCursor,
+                std::vector<CXCursor>
+            > childs;
+            std::unordered_map<CXCursor, CXCursor> parent;
+        };
 
     curTree getCursorTree();
     curTree getCursorTree_debug();

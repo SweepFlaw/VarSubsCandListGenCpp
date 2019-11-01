@@ -10,6 +10,7 @@ CurInfo::CurInfo(CXCursor c)
     : cursor{c}
     , ckind{clang_getCursorKind(c)}
     , location{clang_getCursorLocation(c)}
+    , range{clang_getCursorExtent(c)}
     , ctype{clang_getCursorType(c)}
     , curStr{LibClangUtil::getCurStr(c)}
 {
@@ -25,6 +26,8 @@ void CurInfo::printReadableStr(ostream& os){
         << "\tLoc Line   :\t"   << line                                 << endl
         << "\tLoc Column :\t"   << column                               << endl
         << "\tLoc Offset :\t"   << offset                               << endl
+        << "\tRange Begin:\t"   << range.begin_int_data                 << endl
+        << "\tRange End  :\t"   << range.end_int_data                   << endl
         << "\tIsVariable :\t"   << isVariable                           << endl
     ;
 }
