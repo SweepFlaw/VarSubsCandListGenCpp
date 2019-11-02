@@ -21,20 +21,25 @@ public:
     CppTree (const char* _cppFilename);
     ~CppTree();
 
-    using vSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
-    vSubsCandMap getVarSubsCandMap();
-
     using curTree = 
         struct {
-            std::unordered_map<
-                CXCursor,
-                std::vector<CXCursor>
-            > childs;
+            std::unordered_map<CXCursor, std::vector<CXCursor>> childs;
             std::unordered_map<CXCursor, CXCursor> parent;
         };
-
     curTree getCursorTree();
-    curTree getCursorTree_debug();
+
+    using varScopeMap = 
+        struct {
+            std::unordered_map<CXCursor, CXCursor> varDeclSM;
+            std::unordered_map<CXCursor, CXCursor> varDRefSM;
+        };
+    varScopeMap getVarScopeMap(curTree& ctree);
+    varScopeMap getVarScopeMap();
+
+    //using varSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
+    //varSubsCandMap getVarSubsCandMap(curTree& ctree);
+    //varSubsCandMap getVarSubsCandMap();
+    
 };
 
 

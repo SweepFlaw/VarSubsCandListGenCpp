@@ -31,10 +31,6 @@ CppTree::~CppTree(){
     clang_disposeIndex(cindex);
 }
 
-CppTree::vSubsCandMap CppTree::getVarSubsCandMap(){
-    return makeVarSubsCandMap(cursor);
-}
-
 CppTree::curTree CppTree::getCursorTree(){
     curTree ctree;
 
@@ -44,6 +40,7 @@ CppTree::curTree CppTree::getCursorTree(){
         unsigned end;
     };
 
+    // client-data is the only way to pass the data or the function in clang_visitChildren.
     struct ClData {
         string filename;
         vector<cursorWithRange> curVec;
@@ -53,6 +50,7 @@ CppTree::curTree CppTree::getCursorTree(){
         vector<cursorWithRange>()
     };
 
+    // Collect every cursors which points to source file and not unexposed contents.
     clang_visitChildren(
         cursor,
         [](CXCursor c, CXCursor parent, CXClientData client_data) {
@@ -80,6 +78,7 @@ CppTree::curTree CppTree::getCursorTree(){
         &cldata
     );
 
+    // sort the vector by cursor's range-begin, range-end values.
     vector<cursorWithRange>& cv = cldata.curVec;
     std::sort(
         cv.begin(), 
@@ -94,6 +93,7 @@ CppTree::curTree CppTree::getCursorTree(){
         }
     );
 
+    // figure out the parent-child relationships between cursors.
     for(size_t i = 0; i < cv.size(); ++i){
         cursorWithRange targetCursorRange = cv[i];
         cursorWithRange parentCursorRange = cv[0];
@@ -101,7 +101,7 @@ CppTree::curTree CppTree::getCursorTree(){
         bool findFlag = false;
         if(i > 0){
             for(size_t j = i - 1; j < cv.size(); --j){
-                if(cv[j].end >= targetCursorRange.end && cv[j].begin <= targetCursorRange.begin){
+                if((cv[j].end >= targetCursorRange.end) && (cv[j].begin <= targetCursorRange.begin)){
                     findFlag = true;
                     parentCursorRange = cv[j];
                     break;
@@ -110,7 +110,7 @@ CppTree::curTree CppTree::getCursorTree(){
         }
         if(!findFlag){
             for(size_t j = i + 1; j < cv.size(); ++j){
-                if(cv[j].begin <= targetCursorRange.begin && cv[j].end >= targetCursorRange.end){
+                if((cv[j].begin <= targetCursorRange.begin) && (cv[j].end >= targetCursorRange.end)){
                     findFlag = true;
                     parentCursorRange = cv[j];
                     break;
@@ -118,11 +118,80 @@ CppTree::curTree CppTree::getCursorTree(){
             }
         }
 
-        if(ctree.parent.count(targetCursorRange.cur) == 0){
+        bool isDifferentCursor =
+            (       std::hash<CXCursor>()(targetCursorRange.cur)
+                !=  std::hash<CXCursor>()(parentCursorRange.cur));
+
+        if(ctree.parent.count(targetCursorRange.cur) == 0 && findFlag && isDifferentCursor){
             ctree.parent[targetCursorRange.cur] = parentCursorRange.cur;
             ctree.childs[parentCursorRange.cur].push_back(targetCursorRange.cur);
         }
     }
 
     return ctree;
+}
+
+CppTree::varScopeMap CppTree::getVarScopeMap(curTree& ctree){
+    struct ClData {
+        curTree& ctr;
+        varScopeMap vsm;
+    };
+    ClData cldata {
+        ctree,
+        varScopeMap()
+    };
+
+    clang_visitChildren(
+        cursor,
+        [](CXCursor c, CXCursor parent, CXClientData client_data) {
+            ClData& cd = *(ClData*)client_data;
+            CXCursorKind ck = clang_getCursorKind(c);
+            CXCursor scopeDetCur;
+            bool findFlag = false;
+            if(ck == CXCursor_VarDecl){
+                auto p = cd.ctr.parent.find(c);
+                do {
+                    if(p == cd.ctr.parent.end()){
+                        break;
+                    }
+                    if(LibClangUtil::isCursorScopeSeparatePoint(p->second)){
+                        scopeDetCur = p->second;
+                        findFlag = true;
+                        break;
+                    }
+                    p = cd.ctr.parent.find(p->second);           
+                } while(true);
+                if(findFlag){
+                    cd.vsm.varDeclSM[c] = scopeDetCur;
+                }
+            }
+            else if(ck == CXCursor_DeclRefExpr){
+                auto p = cd.ctr.parent.find(c);
+                do{
+                    if(p == cd.ctr.parent.end()){
+                        break;
+                    }
+                    if(LibClangUtil::isCursorScopeSeparatePoint(p->second)){
+                        scopeDetCur = p->second;
+                        findFlag = true;
+                        break;
+                    }
+                    p = cd.ctr.parent.find(p->second);
+                } while (true);
+                if(findFlag){
+                    cd.vsm.varDRefSM[c] = scopeDetCur;
+                }
+            }
+
+            return CXChildVisit_Recurse;
+        },
+        &cldata
+    );
+
+    return cldata.vsm;
+}
+
+CppTree::varScopeMap CppTree::getVarScopeMap(){
+    auto ctree = getCursorTree();
+    return getVarScopeMap(ctree);
 }

@@ -79,13 +79,7 @@ bool LibClangUtil::isCursorOnFile(CXCursor c, string filename, bool throwExcepti
 
 bool LibClangUtil::isCursorScopeSeparatePoint(CXCursor c){
     CXCursorKind ck = clang_getCursorKind(c);
-    return (    ck == CXCursor_CompoundStmt
-            ||  ck == CXCursor_DoStmt
-            ||  ck == CXCursor_ForStmt
-            ||  ck == CXCursor_IfStmt
-            ||  ck == CXCursor_SwitchStmt
-            ||  ck == CXCursor_WhileStmt
-    );
+    return LibClangUtil::isCursorScopeSeparatePoint(ck);
 }
 
 bool LibClangUtil::isCursorScopeSeparatePoint(CXCursorKind ck){

@@ -1,7 +1,6 @@
 #ifndef CPPSYNTH_MISC_H
 #define CPPSYNTH_MISC_H
 
-#include <src/LibClangUtil.h>
 #include <src/CurInfo.h>
 
 #include <clang-c/Index.h>
