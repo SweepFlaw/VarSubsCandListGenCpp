@@ -1,0 +1,7392 @@
+clang++ -I"./include" -I"." -lclang ./src/*.cpp ./test/test.cpp -o ./test/test
+./test/test
+=====================VARDECL===================
+=====================VARDECL===================
+=====================VARDECL===================
+=====================VARDECL===================
+=====================VARDECL===================
+================VARDECL_DELIMETER===============
+
+Cur String:	x
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	151
+	Loc Column :	8
+	Loc Offset :	2911
+	Range Begin:	2909
+	Range End  :	2914
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	i
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	150
+	Loc Column :	11
+	Loc Offset :	2888
+	Range Begin:	2886
+	Range End  :	2893
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	3
+	Loc Offset :	2880
+	Range Begin:	2882
+	Range End  :	3001
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	ans
+	cursor kind:	VarDecl
+	cursor type:	int [100005]
+	Loc Line   :	137
+	Loc Column :	5
+	Loc Offset :	2668
+	Range Begin:	2666
+	Range End  :	2681
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	v
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	119
+	Loc Column :	22
+	Loc Offset :	2381
+	Range Begin:	2383
+	Range End  :	2395
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	x
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	140
+	Loc Column :	15
+	Loc Offset :	2714
+	Range Begin:	2712
+	Range End  :	2717
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	i
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	118
+	Loc Column :	12
+	Loc Offset :	2335
+	Range Begin:	2333
+	Range End  :	2340
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	4
+	Loc Offset :	2327
+	Range Begin:	2329
+	Range End  :	2658
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	t
+	cursor kind:	VarDecl
+	cursor type:	Data
+	Loc Line   :	126
+	Loc Column :	9
+	Loc Offset :	2544
+	Range Begin:	2541
+	Range End  :	2565
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	32
+	Loc Offset :	2534
+	Range Begin:	2536
+	Range End  :	2653
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	t
+	cursor kind:	VarDecl
+	cursor type:	Data
+	Loc Line   :	115
+	Loc Column :	9
+	Loc Offset :	2251
+	Range Begin:	2248
+	Range End  :	2262
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	22
+	Loc Offset :	2241
+	Range Begin:	2243
+	Range End  :	2662
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	i
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	111
+	Loc Column :	11
+	Loc Offset :	2144
+	Range Begin:	2142
+	Range End  :	2149
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	m
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	109
+	Loc Column :	25
+	Loc Offset :	2085
+	Range Begin:	2083
+	Range End  :	2088
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	n
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	109
+	Loc Column :	19
+	Loc Offset :	2079
+	Range Begin:	2077
+	Range End  :	2082
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	pl
+	cursor kind:	VarDecl
+	cursor type:	int [100005]
+	Loc Line   :	107
+	Loc Column :	27
+	Loc Offset :	2048
+	Range Begin:	2024
+	Range End  :	2060
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	y
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	151
+	Loc Column :	10
+	Loc Offset :	2913
+	Range Begin:	2915
+	Range End  :	2916
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	p
+	cursor kind:	VarDecl
+	cursor type:	int [100005]
+	Loc Line   :	107
+	Loc Column :	17
+	Loc Offset :	2038
+	Range Begin:	2024
+	Range End  :	2049
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	len
+	cursor kind:	VarDecl
+	cursor type:	int [100005]
+	Loc Line   :	107
+	Loc Column :	5
+	Loc Offset :	2026
+	Range Begin:	2024
+	Range End  :	2039
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	e
+	cursor kind:	VarDecl
+	cursor type:	vector<pr> [100005]
+	Loc Line   :	106
+	Loc Column :	13
+	Loc Offset :	2011
+	Range Begin:	2001
+	Range End  :	2022
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	u
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	119
+	Loc Column :	9
+	Loc Offset :	2368
+	Range Begin:	2366
+	Range End  :	2382
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	q
+	cursor kind:	VarDecl
+	cursor type:	priority_queue<Data>
+	Loc Line   :	104
+	Loc Column :	23
+	Loc Offset :	1995
+	Range Begin:	1975
+	Range End  :	1998
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	dis
+	cursor kind:	VarDecl
+	cursor type:	Data [100005]
+	Loc Line   :	103
+	Loc Column :	6
+	Loc Offset :	1960
+	Range Begin:	1957
+	Range End  :	1973
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	y
+	cursor kind:	ParmDecl
+	cursor type:	Data
+	Loc Line   :	98
+	Loc Column :	22
+	Loc Offset :	1877
+	Range Begin:	1874
+	Range End  :	1880
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	l
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	44
+	Loc Column :	17
+	Loc Offset :	727
+	Range Begin:	725
+	Range End  :	730
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	o
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	37
+	Loc Column :	24
+	Loc Offset :	594
+	Range Begin:	592
+	Range End  :	597
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	r
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	64
+	Loc Column :	22
+	Loc Offset :	1158
+	Range Begin:	1156
+	Range End  :	1161
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	n
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	147
+	Loc Column :	7
+	Loc Offset :	2841
+	Range Begin:	2839
+	Range End  :	2844
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	v
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	87
+	Loc Column :	29
+	Loc Offset :	1683
+	Range Begin:	1681
+	Range End  :	1686
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	l
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	49
+	Loc Column :	16
+	Loc Offset :	874
+	Range Begin:	872
+	Range End  :	877
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	vis
+	cursor kind:	VarDecl
+	cursor type:	bool [100005]
+	Loc Line   :	138
+	Loc Column :	6
+	Loc Offset :	2686
+	Range Begin:	2683
+	Range End  :	2699
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	o
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	44
+	Loc Column :	23
+	Loc Offset :	733
+	Range Begin:	731
+	Range End  :	736
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	d
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	117
+	Loc Column :	14
+	Loc Offset :	2317
+	Range Begin:	2319
+	Range End  :	2324
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	22
+	Loc Offset :	2241
+	Range Begin:	2243
+	Range End  :	2662
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	m
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	56
+	Loc Column :	8
+	Loc Offset :	990
+	Range Begin:	988
+	Range End  :	1004
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	Maxn
+	cursor kind:	VarDecl
+	cursor type:	const int
+	Loc Line   :	31
+	Loc Column :	11
+	Loc Offset :	491
+	Range Begin:	483
+	Range End  :	506
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	sumv1
+	cursor kind:	VarDecl
+	cursor type:	int [15000000]
+	Loc Line   :	34
+	Loc Column :	5
+	Loc Offset :	524
+	Range Begin:	522
+	Range End  :	537
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	i
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	22
+	Loc Column :	11
+	Loc Offset :	349
+	Range Begin:	347
+	Range End  :	354
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	3
+	Loc Offset :	341
+	Range Begin:	343
+	Range End  :	462
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	testm
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	32
+	Loc Column :	5
+	Loc Offset :	510
+	Range Begin:	508
+	Range End  :	519
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	b
+	cursor kind:	ParmDecl
+	cursor type:	const Data &
+	Loc Line   :	81
+	Loc Column :	33
+	Loc Offset :	1590
+	Range Begin:	1579
+	Range End  :	1593
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	pow1
+	cursor kind:	VarDecl
+	cursor type:	ll [1000005]
+	Loc Line   :	16
+	Loc Column :	4
+	Loc Offset :	227
+	Range Begin:	226
+	Range End  :	242
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	H
+	cursor kind:	VarDecl
+	cursor type:	const ll
+	Loc Line   :	14
+	Loc Column :	10
+	Loc Offset :	213
+	Range Begin:	206
+	Range End  :	223
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	c
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	80
+	Loc Column :	24
+	Loc Offset :	1536
+	Range Begin:	1534
+	Range End  :	1539
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	i
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	94
+	Loc Column :	11
+	Loc Offset :	1776
+	Range Begin:	1774
+	Range End  :	1781
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	tot
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	35
+	Loc Column :	17
+	Loc Offset :	565
+	Range Begin:	551
+	Range End  :	570
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	vi
+	cursor kind:	VarDecl
+	cursor type:	vector<int>
+	Loc Line   :	19
+	Loc Column :	15
+	Loc Offset :	298
+	Range Begin:	288
+	Range End  :	302
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	18
+	Loc Column :	12
+	Loc Offset :	282
+	Range Begin:	284
+	Range End  :	464
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	o
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	49
+	Loc Column :	28
+	Loc Offset :	886
+	Range Begin:	884
+	Range End  :	889
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	y
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	64
+	Loc Column :	34
+	Loc Offset :	1170
+	Range Begin:	1168
+	Range End  :	1173
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	i
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	158
+	Loc Column :	11
+	Loc Offset :	3039
+	Range Begin:	3037
+	Range End  :	3044
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	158
+	Loc Column :	3
+	Loc Offset :	3031
+	Range Begin:	3033
+	Range End  :	3078
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	m
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	147
+	Loc Column :	9
+	Loc Offset :	2843
+	Range Begin:	2845
+	Range End  :	2846
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	r
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	49
+	Loc Column :	22
+	Loc Offset :	880
+	Range Begin:	878
+	Range End  :	883
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	m
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	68
+	Loc Column :	8
+	Loc Offset :	1285
+	Range Begin:	1283
+	Range End  :	1299
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	67
+	Loc Column :	8
+	Loc Offset :	1276
+	Range Begin:	1278
+	Range End  :	1468
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	cur
+	cursor kind:	VarDecl
+	cursor type:	int [10]
+	Loc Line   :	88
+	Loc Column :	7
+	Loc Offset :	1694
+	Range Begin:	1692
+	Range End  :	1703
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	87
+	Loc Column :	32
+	Loc Offset :	1686
+	Range Begin:	1688
+	Range End  :	1856
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	p
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	49
+	Loc Column :	34
+	Loc Offset :	892
+	Range Begin:	890
+	Range End  :	895
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	ch
+	cursor kind:	VarDecl
+	cursor type:	int [15000000][2]
+	Loc Line   :	35
+	Loc Column :	5
+	Loc Offset :	553
+	Range Begin:	551
+	Range End  :	566
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	l
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	64
+	Loc Column :	16
+	Loc Offset :	1152
+	Range Begin:	1150
+	Range End  :	1155
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	i
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	110
+	Loc Column :	11
+	Loc Offset :	2100
+	Range Begin:	2098
+	Range End  :	2105
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	x
+	cursor kind:	ParmDecl
+	cursor type:	Data
+	Loc Line   :	98
+	Loc Column :	15
+	Loc Offset :	1870
+	Range Begin:	1867
+	Range End  :	1873
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	x
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	64
+	Loc Column :	28
+	Loc Offset :	1164
+	Range Begin:	1162
+	Range End  :	1167
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	a
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	80
+	Loc Column :	12
+	Loc Offset :	1524
+	Range Begin:	1522
+	Range End  :	1527
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	b
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	80
+	Loc Column :	18
+	Loc Offset :	1530
+	Range Begin:	1528
+	Range End  :	1533
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	x
+	cursor kind:	ParmDecl
+	cursor type:	Data
+	Loc Line   :	87
+	Loc Column :	17
+	Loc Offset :	1671
+	Range Begin:	1668
+	Range End  :	1674
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	sumv2
+	cursor kind:	VarDecl
+	cursor type:	int [15000000]
+	Loc Line   :	34
+	Loc Column :	17
+	Loc Offset :	536
+	Range Begin:	522
+	Range End  :	549
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	pow2
+	cursor kind:	VarDecl
+	cursor type:	ll [1000005]
+	Loc Line   :	16
+	Loc Column :	18
+	Loc Offset :	241
+	Range Begin:	226
+	Range End  :	256
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	u
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	87
+	Loc Column :	23
+	Loc Offset :	1677
+	Range Begin:	1675
+	Range End  :	1680
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	x
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	117
+	Loc Column :	8
+	Loc Offset :	2311
+	Range Begin:	2309
+	Range End  :	2318
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	22
+	Loc Offset :	2241
+	Range Begin:	2243
+	Range End  :	2662
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	powd
+	cursor kind:	VarDecl
+	cursor type:	ll [1000005]
+	Loc Line   :	16
+	Loc Column :	32
+	Loc Offset :	255
+	Range Begin:	226
+	Range End  :	270
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	q
+	cursor kind:	ParmDecl
+	cursor type:	int
+	Loc Line   :	49
+	Loc Column :	40
+	Loc Offset :	898
+	Range Begin:	896
+	Range End  :	901
+	IsVariable :	0
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+================VARDECL_DELIMETER===============
+
+Cur String:	cnt
+	cursor kind:	VarDecl
+	cursor type:	int
+	Loc Line   :	88
+	Loc Column :	15
+	Loc Offset :	1702
+	Range Begin:	1704
+	Range End  :	1709
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	87
+	Loc Column :	32
+	Loc Offset :	1686
+	Range Begin:	1688
+	Range End  :	1856
+	IsVariable :	0
+=====================DECLREF===================
+=====================DECLREF===================
+=====================DECLREF===================
+=====================DECLREF===================
+=====================DECLREF===================
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	158
+	Loc Column :	45
+	Loc Offset :	3073
+	Range Begin:	3075
+	Range End  :	3076
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	158
+	Loc Column :	3
+	Loc Offset :	3031
+	Range Begin:	3033
+	Range End  :	3078
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	solve
+	cursor kind:	DeclRefExpr
+	cursor type:	int (int)
+	Loc Line   :	158
+	Loc Column :	39
+	Loc Offset :	3067
+	Range Begin:	3069
+	Range End  :	3074
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	158
+	Loc Column :	3
+	Loc Offset :	3031
+	Range Begin:	3033
+	Range End  :	3078
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	printf
+	cursor kind:	DeclRefExpr
+	cursor type:	int (const char *__restrict, ...)
+	Loc Line   :	158
+	Loc Column :	25
+	Loc Offset :	3053
+	Range Begin:	3055
+	Range End  :	3061
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	158
+	Loc Column :	3
+	Loc Offset :	3031
+	Range Begin:	3033
+	Range End  :	3078
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	158
+	Loc Column :	20
+	Loc Offset :	3048
+	Range Begin:	3050
+	Range End  :	3051
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	158
+	Loc Column :	3
+	Loc Offset :	3031
+	Range Begin:	3033
+	Range End  :	3078
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	158
+	Loc Column :	15
+	Loc Offset :	3043
+	Range Begin:	3045
+	Range End  :	3046
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	158
+	Loc Column :	3
+	Loc Offset :	3031
+	Range Begin:	3033
+	Range End  :	3078
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	156
+	Loc Column :	14
+	Loc Offset :	3013
+	Range Begin:	3015
+	Range End  :	3016
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dijkstra
+	cursor kind:	DeclRefExpr
+	cursor type:	void (int, int)
+	Loc Line   :	156
+	Loc Column :	3
+	Loc Offset :	3002
+	Range Begin:	3004
+	Range End  :	3012
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	154
+	Loc Column :	6
+	Loc Offset :	2973
+	Range Begin:	2975
+	Range End  :	2976
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	e
+	cursor kind:	DeclRefExpr
+	cursor type:	vector<pr> [100005]
+	Loc Line   :	154
+	Loc Column :	4
+	Loc Offset :	2971
+	Range Begin:	2973
+	Range End  :	2974
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	153
+	Loc Column :	24
+	Loc Offset :	2963
+	Range Begin:	2965
+	Range End  :	2966
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	e
+	cursor kind:	DeclRefExpr
+	cursor type:	vector<pr> [100005]
+	Loc Line   :	153
+	Loc Column :	4
+	Loc Offset :	2943
+	Range Begin:	2945
+	Range End  :	2946
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	150
+	Loc Column :	18
+	Loc Offset :	2895
+	Range Begin:	2897
+	Range End  :	2898
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	3
+	Loc Offset :	2880
+	Range Begin:	2882
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pre
+	cursor kind:	DeclRefExpr
+	cursor type:	void ()
+	Loc Line   :	149
+	Loc Column :	3
+	Loc Offset :	2871
+	Range Begin:	2873
+	Range End  :	2876
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	scanf
+	cursor kind:	DeclRefExpr
+	cursor type:	int (const char *__restrict, ...)
+	Loc Line   :	148
+	Loc Column :	3
+	Loc Offset :	2848
+	Range Begin:	2850
+	Range End  :	2855
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	143
+	Loc Column :	50
+	Loc Offset :	2809
+	Range Begin:	2811
+	Range End  :	2812
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pl
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	143
+	Loc Column :	47
+	Loc Offset :	2806
+	Range Begin:	2808
+	Range End  :	2810
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pl
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	143
+	Loc Column :	39
+	Loc Offset :	2798
+	Range Begin:	2800
+	Range End  :	2802
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	len
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	143
+	Loc Column :	35
+	Loc Offset :	2794
+	Range Begin:	2796
+	Range End  :	2799
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	p
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	143
+	Loc Column :	24
+	Loc Offset :	2783
+	Range Begin:	2785
+	Range End  :	2786
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	143
+	Loc Column :	42
+	Loc Offset :	2801
+	Range Begin:	2803
+	Range End  :	2804
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	solve
+	cursor kind:	DeclRefExpr
+	cursor type:	int (int)
+	Loc Line   :	143
+	Loc Column :	18
+	Loc Offset :	2777
+	Range Begin:	2779
+	Range End  :	2784
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	142
+	Loc Column :	7
+	Loc Offset :	2754
+	Range Begin:	2756
+	Range End  :	2757
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ans
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	141
+	Loc Column :	22
+	Loc Offset :	2740
+	Range Begin:	2742
+	Range End  :	2745
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	141
+	Loc Column :	3
+	Loc Offset :	2721
+	Range Begin:	2723
+	Range End  :	2748
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	130
+	Loc Column :	12
+	Loc Offset :	2634
+	Range Begin:	2636
+	Range End  :	2639
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	priority_queue<Data>
+	Loc Line   :	130
+	Loc Column :	5
+	Loc Offset :	2627
+	Range Begin:	2629
+	Range End  :	2630
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	129
+	Loc Column :	18
+	Loc Offset :	2620
+	Range Begin:	2622
+	Range End  :	2623
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pl
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	129
+	Loc Column :	12
+	Loc Offset :	2614
+	Range Begin:	2616
+	Range End  :	2618
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	129
+	Loc Column :	7
+	Loc Offset :	2609
+	Range Begin:	2611
+	Range End  :	2612
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	p
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	129
+	Loc Column :	5
+	Loc Offset :	2607
+	Range Begin:	2609
+	Range End  :	2610
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	operator=
+	cursor kind:	DeclRefExpr
+	cursor type:	Data &(const Data &) noexcept
+	Loc Line   :	128
+	Loc Column :	11
+	Loc Offset :	2599
+	Range Begin:	2601
+	Range End  :	2602
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	128
+	Loc Column :	5
+	Loc Offset :	2593
+	Range Begin:	2595
+	Range End  :	2598
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	127
+	Loc Column :	18
+	Loc Offset :	2582
+	Range Begin:	2584
+	Range End  :	2585
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	4
+	Loc Offset :	2568
+	Range Begin:	2570
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	127
+	Loc Column :	14
+	Loc Offset :	2578
+	Range Begin:	2580
+	Range End  :	2583
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	4
+	Loc Offset :	2568
+	Range Begin:	2570
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	126
+	Loc Column :	26
+	Loc Offset :	2561
+	Range Begin:	2563
+	Range End  :	2564
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	32
+	Loc Offset :	2534
+	Range Begin:	2536
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	trans
+	cursor kind:	DeclRefExpr
+	cursor type:	Data (Data, int, int)
+	Loc Line   :	126
+	Loc Column :	11
+	Loc Offset :	2546
+	Range Begin:	2548
+	Range End  :	2553
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	32
+	Loc Offset :	2534
+	Range Begin:	2536
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	125
+	Loc Column :	18
+	Loc Offset :	2520
+	Range Begin:	2522
+	Range End  :	2523
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	8
+	Loc Offset :	2510
+	Range Begin:	2512
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	len
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	125
+	Loc Column :	14
+	Loc Offset :	2516
+	Range Begin:	2518
+	Range End  :	2521
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	8
+	Loc Offset :	2510
+	Range Begin:	2512
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	143
+	Loc Column :	26
+	Loc Offset :	2785
+	Range Begin:	2787
+	Range End  :	2788
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	t
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	127
+	Loc Column :	12
+	Loc Offset :	2576
+	Range Begin:	2578
+	Range End  :	2579
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	4
+	Loc Offset :	2568
+	Range Begin:	2570
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	d
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	125
+	Loc Column :	12
+	Loc Offset :	2514
+	Range Begin:	2516
+	Range End  :	2517
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	8
+	Loc Offset :	2510
+	Range Begin:	2512
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	123
+	Loc Column :	17
+	Loc Offset :	2492
+	Range Begin:	2494
+	Range End  :	2495
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	priority_queue<Data>
+	Loc Line   :	123
+	Loc Column :	6
+	Loc Offset :	2481
+	Range Begin:	2483
+	Range End  :	2484
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	126
+	Loc Column :	17
+	Loc Offset :	2552
+	Range Begin:	2554
+	Range End  :	2557
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	32
+	Loc Offset :	2534
+	Range Begin:	2536
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	122
+	Loc Column :	16
+	Loc Offset :	2470
+	Range Begin:	2472
+	Range End  :	2473
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	t
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	128
+	Loc Column :	12
+	Loc Offset :	2600
+	Range Begin:	2602
+	Range End  :	2603
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pl
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	122
+	Loc Column :	13
+	Loc Offset :	2467
+	Range Begin:	2469
+	Range End  :	2471
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	122
+	Loc Column :	11
+	Loc Offset :	2465
+	Range Begin:	2467
+	Range End  :	2468
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	121
+	Loc Column :	19
+	Loc Offset :	2442
+	Range Begin:	2444
+	Range End  :	2447
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	trans
+	cursor kind:	DeclRefExpr
+	cursor type:	Data (Data, int, int)
+	Loc Line   :	121
+	Loc Column :	13
+	Loc Offset :	2436
+	Range Begin:	2438
+	Range End  :	2443
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cmp
+	cursor kind:	DeclRefExpr
+	cursor type:	bool (Data, Data)
+	Loc Line   :	127
+	Loc Column :	8
+	Loc Offset :	2572
+	Range Begin:	2574
+	Range End  :	2577
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	4
+	Loc Offset :	2568
+	Range Begin:	2570
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	122
+	Loc Column :	8
+	Loc Offset :	2462
+	Range Begin:	2464
+	Range End  :	2465
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	p
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	122
+	Loc Column :	6
+	Loc Offset :	2460
+	Range Begin:	2462
+	Range End  :	2463
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	operator=
+	cursor kind:	DeclRefExpr
+	cursor type:	Data &(Data &&) noexcept
+	Loc Line   :	121
+	Loc Column :	12
+	Loc Offset :	2435
+	Range Begin:	2437
+	Range End  :	2438
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	121
+	Loc Column :	10
+	Loc Offset :	2433
+	Range Begin:	2435
+	Range End  :	2436
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	121
+	Loc Column :	6
+	Loc Offset :	2429
+	Range Begin:	2431
+	Range End  :	2434
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	120
+	Loc Column :	22
+	Loc Offset :	2416
+	Range Begin:	2418
+	Range End  :	2419
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	5
+	Loc Offset :	2399
+	Range Begin:	2401
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	len
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	120
+	Loc Column :	11
+	Loc Offset :	2405
+	Range Begin:	2407
+	Range End  :	2410
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	5
+	Loc Offset :	2399
+	Range Begin:	2401
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	powd
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	143
+	Loc Column :	30
+	Loc Offset :	2789
+	Range Begin:	2791
+	Range End  :	2795
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	d
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	120
+	Loc Column :	9
+	Loc Offset :	2403
+	Range Begin:	2405
+	Range End  :	2406
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	5
+	Loc Offset :	2399
+	Range Begin:	2401
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	141
+	Loc Column :	26
+	Loc Offset :	2744
+	Range Begin:	2746
+	Range End  :	2747
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	141
+	Loc Column :	3
+	Loc Offset :	2721
+	Range Begin:	2723
+	Range End  :	2748
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	125
+	Loc Column :	22
+	Loc Offset :	2524
+	Range Begin:	2526
+	Range End  :	2529
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	8
+	Loc Offset :	2510
+	Range Begin:	2512
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	operator[]
+	cursor kind:	DeclRefExpr
+	cursor type:	std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >::reference (std::vector::size_type) noexcept
+	Loc Line   :	119
+	Loc Column :	28
+	Loc Offset :	2387
+	Range Begin:	2389
+	Range End  :	2392
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	119
+	Loc Column :	26
+	Loc Offset :	2385
+	Range Begin:	2387
+	Range End  :	2388
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	e
+	cursor kind:	DeclRefExpr
+	cursor type:	vector<pr> [100005]
+	Loc Line   :	119
+	Loc Column :	24
+	Loc Offset :	2383
+	Range Begin:	2385
+	Range End  :	2386
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	118
+	Loc Column :	30
+	Loc Offset :	2353
+	Range Begin:	2355
+	Range End  :	2356
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	4
+	Loc Offset :	2327
+	Range Begin:	2329
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	e
+	cursor kind:	DeclRefExpr
+	cursor type:	vector<pr> [100005]
+	Loc Line   :	118
+	Loc Column :	18
+	Loc Offset :	2341
+	Range Begin:	2343
+	Range End  :	2344
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	4
+	Loc Offset :	2327
+	Range Begin:	2329
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	118
+	Loc Column :	16
+	Loc Offset :	2339
+	Range Begin:	2341
+	Range End  :	2342
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	4
+	Loc Offset :	2327
+	Range Begin:	2329
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	141
+	Loc Column :	11
+	Loc Offset :	2729
+	Range Begin:	2731
+	Range End  :	2732
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	141
+	Loc Column :	3
+	Loc Offset :	2721
+	Range Begin:	2723
+	Range End  :	2748
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	t
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	117
+	Loc Column :	16
+	Loc Offset :	2319
+	Range Begin:	2321
+	Range End  :	2322
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	22
+	Loc Offset :	2241
+	Range Begin:	2243
+	Range End  :	2662
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	t
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	116
+	Loc Column :	21
+	Loc Offset :	2290
+	Range Begin:	2292
+	Range End  :	2293
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	116
+	Loc Column :	4
+	Loc Offset :	2273
+	Range Begin:	2275
+	Range End  :	2304
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ans
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	143
+	Loc Column :	10
+	Loc Offset :	2769
+	Range Begin:	2771
+	Range End  :	2774
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	119
+	Loc Column :	16
+	Loc Offset :	2375
+	Range Begin:	2377
+	Range End  :	2378
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	t
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	116
+	Loc Column :	16
+	Loc Offset :	2285
+	Range Begin:	2287
+	Range End  :	2288
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	116
+	Loc Column :	4
+	Loc Offset :	2273
+	Range Begin:	2275
+	Range End  :	2304
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cmp
+	cursor kind:	DeclRefExpr
+	cursor type:	bool (Data, Data)
+	Loc Line   :	116
+	Loc Column :	8
+	Loc Offset :	2277
+	Range Begin:	2279
+	Range End  :	2282
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	116
+	Loc Column :	4
+	Loc Offset :	2273
+	Range Begin:	2275
+	Range End  :	2304
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	priority_queue<Data>
+	Loc Line   :	115
+	Loc Column :	19
+	Loc Offset :	2261
+	Range Begin:	2263
+	Range End  :	2264
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	22
+	Loc Offset :	2241
+	Range Begin:	2243
+	Range End  :	2662
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	priority_queue<Data>
+	Loc Line   :	115
+	Loc Column :	11
+	Loc Offset :	2253
+	Range Begin:	2255
+	Range End  :	2256
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	22
+	Loc Offset :	2241
+	Range Begin:	2243
+	Range End  :	2662
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	150
+	Loc Column :	20
+	Loc Offset :	2897
+	Range Begin:	2899
+	Range End  :	2900
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	3
+	Loc Offset :	2880
+	Range Begin:	2882
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	priority_queue<Data>
+	Loc Line   :	114
+	Loc Column :	11
+	Loc Offset :	2230
+	Range Begin:	2232
+	Range End  :	2233
+	IsVariable :	1
+Cur String:	
+	cursor kind:	WhileStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	3
+	Loc Offset :	2222
+	Range Begin:	2224
+	Range End  :	2662
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	126
+	Loc Column :	21
+	Loc Offset :	2556
+	Range Begin:	2558
+	Range End  :	2559
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	32
+	Loc Offset :	2534
+	Range Begin:	2536
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	113
+	Loc Column :	10
+	Loc Offset :	2211
+	Range Begin:	2213
+	Range End  :	2216
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	109
+	Loc Column :	28
+	Loc Offset :	2088
+	Range Begin:	2090
+	Range End  :	2664
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	operator=
+	cursor kind:	DeclRefExpr
+	cursor type:	Data &(Data &&) noexcept
+	Loc Line   :	111
+	Loc Column :	31
+	Loc Offset :	2164
+	Range Begin:	2166
+	Range End  :	2167
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	152
+	Loc Column :	18
+	Loc Offset :	2933
+	Range Begin:	2935
+	Range End  :	2936
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	111
+	Loc Column :	29
+	Loc Offset :	2162
+	Range Begin:	2164
+	Range End  :	2165
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	111
+	Loc Column :	25
+	Loc Offset :	2158
+	Range Begin:	2160
+	Range End  :	2163
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	111
+	Loc Column :	20
+	Loc Offset :	2153
+	Range Begin:	2155
+	Range End  :	2156
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	n
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	111
+	Loc Column :	18
+	Loc Offset :	2151
+	Range Begin:	2153
+	Range End  :	2154
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	120
+	Loc Column :	15
+	Loc Offset :	2409
+	Range Begin:	2411
+	Range End  :	2412
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	5
+	Loc Offset :	2399
+	Range Begin:	2401
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	len
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	110
+	Loc Column :	32
+	Loc Offset :	2121
+	Range Begin:	2123
+	Range End  :	2126
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	110
+	Loc Column :	29
+	Loc Offset :	2118
+	Range Begin:	2120
+	Range End  :	2121
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	110
+	Loc Column :	20
+	Loc Offset :	2109
+	Range Begin:	2111
+	Range End  :	2112
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	110
+	Loc Column :	15
+	Loc Offset :	2104
+	Range Begin:	2106
+	Range End  :	2107
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	100
+	Loc Column :	32
+	Loc Offset :	1945
+	Range Begin:	1947
+	Range End  :	1948
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	98
+	Loc Column :	25
+	Loc Offset :	1880
+	Range Begin:	1882
+	Range End  :	1955
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	100
+	Loc Column :	27
+	Loc Offset :	1940
+	Range Begin:	1942
+	Range End  :	1943
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	98
+	Loc Column :	25
+	Loc Offset :	1880
+	Range Begin:	1882
+	Range End  :	1955
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	121
+	Loc Column :	23
+	Loc Offset :	2446
+	Range Begin:	2448
+	Range End  :	2449
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	119
+	Loc Column :	13
+	Loc Offset :	2372
+	Range Begin:	2374
+	Range End  :	2375
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	99
+	Loc Column :	24
+	Loc Offset :	1905
+	Range Begin:	1907
+	Range End  :	1908
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	99
+	Loc Column :	3
+	Loc Offset :	1884
+	Range Begin:	1886
+	Range End  :	1914
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	vis
+	cursor kind:	DeclRefExpr
+	cursor type:	bool [100005]
+	Loc Line   :	142
+	Loc Column :	3
+	Loc Offset :	2750
+	Range Begin:	2752
+	Range End  :	2755
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	99
+	Loc Column :	12
+	Loc Offset :	1893
+	Range Begin:	1895
+	Range End  :	1896
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	99
+	Loc Column :	3
+	Loc Offset :	1884
+	Range Begin:	1886
+	Range End  :	1914
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	17
+	Loc Offset :	1020
+	Range Begin:	1022
+	Range End  :	1023
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	powd
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	25
+	Loc Column :	4
+	Loc Offset :	428
+	Range Begin:	430
+	Range End  :	434
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	r
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	51
+	Loc Column :	10
+	Loc Offset :	928
+	Range Begin:	930
+	Range End  :	931
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	3
+	Loc Offset :	921
+	Range Begin:	923
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	56
+	Loc Column :	12
+	Loc Offset :	994
+	Range Begin:	996
+	Range End  :	997
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	operator[]
+	cursor kind:	DeclRefExpr
+	cursor type:	std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >::reference (std::vector::size_type) noexcept
+	Loc Line   :	119
+	Loc Column :	15
+	Loc Offset :	2374
+	Range Begin:	2376
+	Range End  :	2379
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	52
+	Loc Column :	13
+	Loc Offset :	945
+	Range Begin:	947
+	Range End  :	952
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	13
+	Loc Offset :	931
+	Range Begin:	933
+	Range End  :	975
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	40
+	Loc Column :	3
+	Loc Offset :	653
+	Range Begin:	655
+	Range End  :	657
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	69
+	Loc Column :	17
+	Loc Offset :	1315
+	Range Begin:	1317
+	Range End  :	1318
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	52
+	Loc Column :	4
+	Loc Offset :	936
+	Range Begin:	938
+	Range End  :	943
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	13
+	Loc Offset :	931
+	Range Begin:	933
+	Range End  :	975
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	50
+	Loc Column :	13
+	Loc Offset :	915
+	Range Begin:	917
+	Range End  :	918
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	49
+	Loc Column :	43
+	Loc Offset :	901
+	Range Begin:	903
+	Range End  :	1137
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	110
+	Loc Column :	18
+	Loc Offset :	2107
+	Range Begin:	2109
+	Range End  :	2110
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	45
+	Loc Column :	19
+	Loc Offset :	756
+	Range Begin:	758
+	Range End  :	760
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow1
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	21
+	Loc Column :	3
+	Loc Offset :	312
+	Range Begin:	314
+	Range End  :	318
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	18
+	Loc Column :	12
+	Loc Offset :	282
+	Range Begin:	284
+	Range End  :	464
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	46
+	Loc Column :	34
+	Loc Offset :	830
+	Range Begin:	832
+	Range End  :	833
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	143
+	Loc Column :	14
+	Loc Offset :	2773
+	Range Begin:	2775
+	Range End  :	2776
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	140
+	Loc Column :	18
+	Loc Offset :	2717
+	Range Begin:	2719
+	Range End  :	2822
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	vis
+	cursor kind:	DeclRefExpr
+	cursor type:	bool [100005]
+	Loc Line   :	141
+	Loc Column :	7
+	Loc Offset :	2725
+	Range Begin:	2727
+	Range End  :	2730
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	141
+	Loc Column :	3
+	Loc Offset :	2721
+	Range Begin:	2723
+	Range End  :	2748
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	70
+	Loc Column :	37
+	Loc Offset :	1410
+	Range Begin:	1412
+	Range End  :	1413
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	46
+	Loc Column :	19
+	Loc Offset :	815
+	Range Begin:	817
+	Range End  :	819
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	66
+	Loc Column :	26
+	Loc Offset :	1256
+	Range Begin:	1258
+	Range End  :	1259
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	66
+	Loc Column :	3
+	Loc Offset :	1233
+	Range Begin:	1235
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	22
+	Loc Column :	15
+	Loc Offset :	353
+	Range Begin:	355
+	Range End  :	356
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	3
+	Loc Offset :	341
+	Range Begin:	343
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	45
+	Loc Column :	46
+	Loc Offset :	783
+	Range Begin:	785
+	Range End  :	786
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	45
+	Loc Column :	43
+	Loc Offset :	780
+	Range Begin:	782
+	Range End  :	784
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	153
+	Loc Column :	22
+	Loc Offset :	2961
+	Range Begin:	2963
+	Range End  :	2964
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	69
+	Loc Column :	14
+	Loc Offset :	1312
+	Range Begin:	1314
+	Range End  :	1316
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	99
+	Loc Column :	28
+	Loc Offset :	1909
+	Range Begin:	1911
+	Range End  :	1912
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	99
+	Loc Column :	3
+	Loc Offset :	1884
+	Range Begin:	1886
+	Range End  :	1914
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	45
+	Loc Column :	37
+	Loc Offset :	774
+	Range Begin:	776
+	Range End  :	781
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow2
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	21
+	Loc Column :	11
+	Loc Offset :	320
+	Range Begin:	322
+	Range End  :	326
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	18
+	Loc Column :	12
+	Loc Offset :	282
+	Range Begin:	284
+	Range End  :	464
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow1
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	23
+	Loc Column :	12
+	Loc Offset :	378
+	Range Begin:	380
+	Range End  :	384
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow1
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	45
+	Loc Column :	29
+	Loc Offset :	766
+	Range Begin:	768
+	Range End  :	772
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	45
+	Loc Column :	22
+	Loc Offset :	759
+	Range Begin:	761
+	Range End  :	762
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	129
+	Loc Column :	15
+	Loc Offset :	2617
+	Range Begin:	2619
+	Range End  :	2620
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	b
+	cursor kind:	DeclRefExpr
+	cursor type:	const Data
+	Loc Line   :	82
+	Loc Column :	11
+	Loc Offset :	1611
+	Range Begin:	1613
+	Range End  :	1614
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	82
+	Loc Column :	4
+	Loc Offset :	1604
+	Range Begin:	1606
+	Range End  :	1630
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	65
+	Loc Column :	43
+	Loc Offset :	1217
+	Range Begin:	1219
+	Range End  :	1220
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	69
+	Loc Column :	51
+	Loc Offset :	1349
+	Range Begin:	1351
+	Range End  :	1352
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cur
+	cursor kind:	DeclRefExpr
+	cursor type:	int [10]
+	Loc Line   :	91
+	Loc Column :	4
+	Loc Offset :	1735
+	Range Begin:	1737
+	Range End  :	1740
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	90
+	Loc Column :	13
+	Loc Offset :	1730
+	Range Begin:	1732
+	Range End  :	1767
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	112
+	Loc Column :	3
+	Loc Offset :	2182
+	Range Begin:	2184
+	Range End  :	2187
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	109
+	Loc Column :	28
+	Loc Offset :	2088
+	Range Begin:	2090
+	Range End  :	2664
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	45
+	Loc Column :	9
+	Loc Offset :	746
+	Range Begin:	748
+	Range End  :	749
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	39
+	Loc Column :	20
+	Loc Offset :	627
+	Range Begin:	629
+	Range End  :	630
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	39
+	Loc Column :	3
+	Loc Offset :	610
+	Range Begin:	612
+	Range End  :	617
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	46
+	Loc Column :	22
+	Loc Offset :	818
+	Range Begin:	820
+	Range End  :	821
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	70
+	Loc Column :	34
+	Loc Offset :	1407
+	Range Begin:	1409
+	Range End  :	1411
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	91
+	Loc Column :	15
+	Loc Offset :	1746
+	Range Begin:	1748
+	Range End  :	1749
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	90
+	Loc Column :	13
+	Loc Offset :	1730
+	Range Begin:	1732
+	Range End  :	1767
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	110
+	Loc Column :	36
+	Loc Offset :	2125
+	Range Begin:	2127
+	Range End  :	2128
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	tot
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	41
+	Loc Column :	10
+	Loc Offset :	703
+	Range Begin:	705
+	Range End  :	708
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	119
+	Loc Column :	29
+	Loc Offset :	2388
+	Range Begin:	2390
+	Range End  :	2391
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	tot
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	40
+	Loc Column :	26
+	Loc Offset :	676
+	Range Begin:	678
+	Range End  :	681
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	53
+	Loc Column :	11
+	Loc Offset :	967
+	Range Begin:	969
+	Range End  :	970
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	13
+	Loc Offset :	931
+	Range Begin:	933
+	Range End  :	975
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	70
+	Loc Column :	28
+	Loc Offset :	1401
+	Range Begin:	1403
+	Range End  :	1404
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	118
+	Loc Column :	20
+	Loc Offset :	2343
+	Range Begin:	2345
+	Range End  :	2346
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	4
+	Loc Offset :	2327
+	Range Begin:	2329
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	r
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	56
+	Loc Column :	14
+	Loc Offset :	996
+	Range Begin:	998
+	Range End  :	999
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	52
+	Loc Column :	22
+	Loc Offset :	954
+	Range Begin:	956
+	Range End  :	957
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	13
+	Loc Offset :	931
+	Range Begin:	933
+	Range End  :	975
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	46
+	Loc Column :	43
+	Loc Offset :	839
+	Range Begin:	841
+	Range End  :	843
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow2
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	46
+	Loc Column :	29
+	Loc Offset :	825
+	Range Begin:	827
+	Range End  :	831
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	n
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	156
+	Loc Column :	12
+	Loc Offset :	3011
+	Range Begin:	3013
+	Range End  :	3014
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	69
+	Loc Column :	59
+	Loc Offset :	1357
+	Range Begin:	1359
+	Range End  :	1364
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	40
+	Loc Column :	34
+	Loc Offset :	684
+	Range Begin:	686
+	Range End  :	688
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	51
+	Loc Column :	7
+	Loc Offset :	925
+	Range Begin:	927
+	Range End  :	928
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	3
+	Loc Offset :	921
+	Range Begin:	923
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	121
+	Loc Column :	28
+	Loc Offset :	2451
+	Range Begin:	2453
+	Range End  :	2454
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	66
+	Loc Column :	29
+	Loc Offset :	1259
+	Range Begin:	1261
+	Range End  :	1266
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	66
+	Loc Column :	3
+	Loc Offset :	1233
+	Range Begin:	1235
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	24
+	Loc Column :	17
+	Loc Offset :	412
+	Range Begin:	414
+	Range End  :	415
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	46
+	Loc Column :	9
+	Loc Offset :	805
+	Range Begin:	807
+	Range End  :	808
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	H
+	cursor kind:	DeclRefExpr
+	cursor type:	const ll
+	Loc Line   :	23
+	Loc Column :	22
+	Loc Offset :	388
+	Range Begin:	390
+	Range End  :	391
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	40
+	Loc Column :	14
+	Loc Offset :	664
+	Range Begin:	666
+	Range End  :	668
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	24
+	Loc Column :	9
+	Loc Offset :	404
+	Range Begin:	406
+	Range End  :	407
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	58
+	Loc Column :	34
+	Loc Offset :	1085
+	Range Begin:	1087
+	Range End  :	1088
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	39
+	Loc Column :	14
+	Loc Offset :	621
+	Range Begin:	623
+	Range End  :	628
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	150
+	Loc Column :	15
+	Loc Offset :	2892
+	Range Begin:	2894
+	Range End  :	2895
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	3
+	Loc Offset :	2880
+	Range Begin:	2882
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	8
+	Loc Offset :	1011
+	Range Begin:	1013
+	Range End  :	1014
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	128
+	Loc Column :	9
+	Loc Offset :	2597
+	Range Begin:	2599
+	Range End  :	2600
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	query
+	cursor kind:	DeclRefExpr
+	cursor type:	bool (int, int, int, int)
+	Loc Line   :	70
+	Loc Column :	13
+	Loc Offset :	1386
+	Range Begin:	1388
+	Range End  :	1393
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	52
+	Loc Column :	19
+	Loc Offset :	951
+	Range Begin:	953
+	Range End  :	954
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	13
+	Loc Offset :	931
+	Range Begin:	933
+	Range End  :	975
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	40
+	Loc Column :	23
+	Loc Offset :	673
+	Range Begin:	675
+	Range End  :	677
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	23
+	Loc Column :	9
+	Loc Offset :	375
+	Range Begin:	377
+	Range End  :	378
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	tot
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	38
+	Loc Column :	3
+	Loc Offset :	601
+	Range Begin:	603
+	Range End  :	606
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	39
+	Loc Column :	40
+	Loc Offset :	647
+	Range Begin:	649
+	Range End  :	650
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	154
+	Loc Column :	24
+	Loc Offset :	2991
+	Range Begin:	2993
+	Range End  :	2994
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	130
+	Loc Column :	16
+	Loc Offset :	2638
+	Range Begin:	2640
+	Range End  :	2641
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow1
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	20
+	Loc Column :	3
+	Loc Offset :	304
+	Range Begin:	306
+	Range End  :	310
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	18
+	Loc Column :	12
+	Loc Offset :	282
+	Range Begin:	284
+	Range End  :	464
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	H
+	cursor kind:	DeclRefExpr
+	cursor type:	const ll
+	Loc Line   :	24
+	Loc Column :	22
+	Loc Offset :	417
+	Range Begin:	419
+	Range End  :	420
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	23
+	Loc Column :	17
+	Loc Offset :	383
+	Range Begin:	385
+	Range End  :	386
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cpynode
+	cursor kind:	DeclRefExpr
+	cursor type:	int (int)
+	Loc Line   :	50
+	Loc Column :	5
+	Loc Offset :	907
+	Range Begin:	909
+	Range End  :	916
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	49
+	Loc Column :	43
+	Loc Offset :	901
+	Range Begin:	903
+	Range End  :	1137
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	30
+	Loc Offset :	1033
+	Range Begin:	1035
+	Range End  :	1036
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	vis
+	cursor kind:	DeclRefExpr
+	cursor type:	bool [100005]
+	Loc Line   :	157
+	Loc Column :	3
+	Loc Offset :	3019
+	Range Begin:	3021
+	Range End  :	3024
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow1
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	23
+	Loc Column :	4
+	Loc Offset :	370
+	Range Begin:	372
+	Range End  :	376
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	129
+	Loc Column :	10
+	Loc Offset :	2612
+	Range Begin:	2614
+	Range End  :	2615
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	127
+	Loc Column :	23
+	Loc Offset :	2587
+	Range Begin:	2589
+	Range End  :	2649
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	39
+	Loc Column :	23
+	Loc Offset :	630
+	Range Begin:	632
+	Range End  :	637
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	powd
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	21
+	Loc Column :	19
+	Loc Offset :	328
+	Range Begin:	330
+	Range End  :	334
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	18
+	Loc Column :	12
+	Loc Offset :	282
+	Range Begin:	284
+	Range End  :	464
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	65
+	Loc Column :	13
+	Loc Offset :	1187
+	Range Begin:	1189
+	Range End  :	1190
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	46
+	Loc Column :	37
+	Loc Offset :	833
+	Range Begin:	835
+	Range End  :	840
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	tot
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	39
+	Loc Column :	9
+	Loc Offset :	616
+	Range Begin:	618
+	Range End  :	621
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	65
+	Loc Column :	33
+	Loc Offset :	1207
+	Range Begin:	1209
+	Range End  :	1210
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	40
+	Loc Column :	37
+	Loc Offset :	687
+	Range Begin:	689
+	Range End  :	690
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	69
+	Loc Column :	25
+	Loc Offset :	1323
+	Range Begin:	1325
+	Range End  :	1330
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	94
+	Loc Column :	69
+	Loc Offset :	1834
+	Range Begin:	1836
+	Range End  :	1837
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	40
+	Loc Column :	17
+	Loc Offset :	667
+	Range Begin:	669
+	Range End  :	670
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	152
+	Loc Column :	21
+	Loc Offset :	2936
+	Range Begin:	2938
+	Range End  :	2939
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	125
+	Loc Column :	26
+	Loc Offset :	2528
+	Range Begin:	2530
+	Range End  :	2531
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	8
+	Loc Offset :	2510
+	Range Begin:	2512
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow2
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	24
+	Loc Column :	12
+	Loc Offset :	407
+	Range Begin:	409
+	Range End  :	413
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	22
+	Loc Column :	22
+	Loc Offset :	360
+	Range Begin:	362
+	Range End  :	363
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	3
+	Loc Offset :	341
+	Range Begin:	343
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	46
+	Loc Column :	13
+	Loc Offset :	809
+	Range Begin:	811
+	Range End  :	816
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	69
+	Loc Column :	8
+	Loc Offset :	1306
+	Range Begin:	1308
+	Range End  :	1313
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pow2
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	24
+	Loc Column :	4
+	Loc Offset :	399
+	Range Begin:	401
+	Range End  :	405
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	71
+	Loc Column :	35
+	Loc Offset :	1452
+	Range Begin:	1454
+	Range End  :	1456
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	25
+	Loc Column :	9
+	Loc Offset :	433
+	Range Begin:	435
+	Range End  :	436
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	p
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	43
+	Loc Offset :	1046
+	Range Begin:	1048
+	Range End  :	1049
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	r
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	58
+	Loc Column :	29
+	Loc Offset :	1080
+	Range Begin:	1082
+	Range End  :	1083
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	52
+	Loc Column :	10
+	Loc Offset :	942
+	Range Begin:	944
+	Range End  :	945
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	51
+	Loc Column :	13
+	Loc Offset :	931
+	Range Begin:	933
+	Range End  :	975
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	65
+	Loc Column :	37
+	Loc Offset :	1211
+	Range Begin:	1213
+	Range End  :	1218
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	39
+	Loc Column :	34
+	Loc Offset :	641
+	Range Begin:	643
+	Range End  :	648
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	powd
+	cursor kind:	DeclRefExpr
+	cursor type:	ll [1000005]
+	Loc Line   :	25
+	Loc Column :	12
+	Loc Offset :	436
+	Range Begin:	438
+	Range End  :	442
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	n
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	148
+	Loc Column :	17
+	Loc Offset :	2862
+	Range Begin:	2864
+	Range End  :	2865
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	p
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	58
+	Loc Column :	40
+	Loc Offset :	1091
+	Range Begin:	1093
+	Range End  :	1094
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	scanf
+	cursor kind:	DeclRefExpr
+	cursor type:	int (const char *__restrict, ...)
+	Loc Line   :	152
+	Loc Column :	4
+	Loc Offset :	2919
+	Range Begin:	2921
+	Range End  :	2926
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	Maxn
+	cursor kind:	DeclRefExpr
+	cursor type:	const int
+	Loc Line   :	34
+	Loc Column :	11
+	Loc Offset :	530
+	Range Begin:	532
+	Range End  :	536
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	len
+	cursor kind:	DeclRefExpr
+	cursor type:	int [100005]
+	Loc Line   :	110
+	Loc Column :	25
+	Loc Offset :	2114
+	Range Begin:	2116
+	Range End  :	2119
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	110
+	Loc Column :	3
+	Loc Offset :	2092
+	Range Begin:	2094
+	Range End  :	2134
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	Maxn
+	cursor kind:	DeclRefExpr
+	cursor type:	const int
+	Loc Line   :	34
+	Loc Column :	23
+	Loc Offset :	542
+	Range Begin:	544
+	Range End  :	548
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	65
+	Loc Column :	27
+	Loc Offset :	1201
+	Range Begin:	1203
+	Range End  :	1208
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	t
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	117
+	Loc Column :	10
+	Loc Offset :	2313
+	Range Begin:	2315
+	Range End  :	2316
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	114
+	Loc Column :	22
+	Loc Offset :	2241
+	Range Begin:	2243
+	Range End  :	2662
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	116
+	Loc Column :	12
+	Loc Offset :	2281
+	Range Begin:	2283
+	Range End  :	2286
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	116
+	Loc Column :	4
+	Loc Offset :	2273
+	Range Begin:	2275
+	Range End  :	2304
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	46
+	Loc Column :	3
+	Loc Offset :	799
+	Range Begin:	801
+	Range End  :	806
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	45
+	Loc Column :	3
+	Loc Offset :	740
+	Range Begin:	742
+	Range End  :	747
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	71
+	Loc Column :	38
+	Loc Offset :	1455
+	Range Begin:	1457
+	Range End  :	1458
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	94
+	Loc Column :	50
+	Loc Offset :	1815
+	Range Begin:	1817
+	Range End  :	1818
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	45
+	Loc Column :	13
+	Loc Offset :	750
+	Range Begin:	752
+	Range End  :	757
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	tot
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	40
+	Loc Column :	6
+	Loc Offset :	656
+	Range Begin:	658
+	Range End  :	661
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	update
+	cursor kind:	DeclRefExpr
+	cursor type:	int (int, int, int, int, int)
+	Loc Line   :	57
+	Loc Column :	23
+	Loc Offset :	1026
+	Range Begin:	1028
+	Range End  :	1034
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	153
+	Loc Column :	6
+	Loc Offset :	2945
+	Range Begin:	2947
+	Range End  :	2948
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	60
+	Loc Column :	11
+	Loc Offset :	1127
+	Range Begin:	1129
+	Range End  :	1130
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	154
+	Loc Column :	22
+	Loc Offset :	2989
+	Range Begin:	2991
+	Range End  :	2992
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	150
+	Loc Column :	25
+	Loc Offset :	2902
+	Range Begin:	2904
+	Range End  :	3001
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	65
+	Loc Column :	23
+	Loc Offset :	1197
+	Range Begin:	1199
+	Range End  :	1200
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	99
+	Loc Column :	7
+	Loc Offset :	1888
+	Range Begin:	1890
+	Range End  :	1891
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	99
+	Loc Column :	3
+	Loc Offset :	1884
+	Range Begin:	1886
+	Range End  :	1914
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cur
+	cursor kind:	DeclRefExpr
+	cursor type:	int [10]
+	Loc Line   :	94
+	Loc Column :	61
+	Loc Offset :	1826
+	Range Begin:	1828
+	Range End  :	1831
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	query
+	cursor kind:	DeclRefExpr
+	cursor type:	bool (int, int, int, int)
+	Loc Line   :	100
+	Loc Column :	15
+	Loc Offset :	1928
+	Range Begin:	1925
+	Range End  :	1935
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	98
+	Loc Column :	25
+	Loc Offset :	1880
+	Range Begin:	1882
+	Range End  :	1955
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	32
+	Loc Offset :	1035
+	Range Begin:	1037
+	Range End  :	1038
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	37
+	Loc Offset :	1040
+	Range Begin:	1042
+	Range End  :	1043
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	123
+	Loc Column :	13
+	Loc Offset :	2488
+	Range Begin:	2490
+	Range End  :	2493
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	dis
+	cursor kind:	DeclRefExpr
+	cursor type:	Data [100005]
+	Loc Line   :	120
+	Loc Column :	18
+	Loc Offset :	2412
+	Range Begin:	2414
+	Range End  :	2417
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	5
+	Loc Offset :	2399
+	Range Begin:	2401
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	b
+	cursor kind:	DeclRefExpr
+	cursor type:	const Data
+	Loc Line   :	83
+	Loc Column :	13
+	Loc Offset :	1642
+	Range Begin:	1644
+	Range End  :	1645
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	81
+	Loc Column :	42
+	Loc Offset :	1599
+	Range Begin:	1601
+	Range End  :	1652
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	58
+	Loc Column :	12
+	Loc Offset :	1063
+	Range Begin:	1065
+	Range End  :	1066
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	update
+	cursor kind:	DeclRefExpr
+	cursor type:	int (int, int, int, int, int)
+	Loc Line   :	58
+	Loc Column :	18
+	Loc Offset :	1069
+	Range Begin:	1071
+	Range End  :	1077
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	n
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	158
+	Loc Column :	18
+	Loc Offset :	3046
+	Range Begin:	3048
+	Range End  :	3049
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	158
+	Loc Column :	3
+	Loc Offset :	3031
+	Range Begin:	3033
+	Range End  :	3078
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	57
+	Loc Column :	14
+	Loc Offset :	1017
+	Range Begin:	1019
+	Range End  :	1021
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	58
+	Loc Column :	25
+	Loc Offset :	1076
+	Range Begin:	1078
+	Range End  :	1079
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	46
+	Loc Column :	46
+	Loc Offset :	842
+	Range Begin:	844
+	Range End  :	845
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	58
+	Loc Column :	31
+	Loc Offset :	1082
+	Range Begin:	1084
+	Range End  :	1086
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	65
+	Loc Column :	7
+	Loc Offset :	1181
+	Range Begin:	1183
+	Range End  :	1188
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	58
+	Loc Column :	42
+	Loc Offset :	1093
+	Range Begin:	1095
+	Range End  :	1096
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	pushup
+	cursor kind:	DeclRefExpr
+	cursor type:	void (int, int)
+	Loc Line   :	59
+	Loc Column :	4
+	Loc Offset :	1100
+	Range Begin:	1102
+	Range End  :	1108
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	59
+	Loc Column :	11
+	Loc Offset :	1107
+	Range Begin:	1109
+	Range End  :	1110
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	69
+	Loc Column :	48
+	Loc Offset :	1346
+	Range Begin:	1348
+	Range End  :	1350
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	59
+	Loc Column :	17
+	Loc Offset :	1113
+	Range Begin:	1115
+	Range End  :	1116
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	e
+	cursor kind:	DeclRefExpr
+	cursor type:	vector<pr> [100005]
+	Loc Line   :	119
+	Loc Column :	11
+	Loc Offset :	2370
+	Range Begin:	2372
+	Range End  :	2373
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	118
+	Loc Column :	35
+	Loc Offset :	2358
+	Range Begin:	2360
+	Range End  :	2658
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	65
+	Loc Column :	17
+	Loc Offset :	1191
+	Range Begin:	1193
+	Range End  :	1198
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	65
+	Loc Column :	3
+	Loc Offset :	1177
+	Range Begin:	1179
+	Range End  :	1231
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cnt
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	94
+	Loc Column :	65
+	Loc Offset :	1830
+	Range Begin:	1832
+	Range End  :	1835
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	126
+	Loc Column :	24
+	Loc Offset :	2559
+	Range Begin:	2561
+	Range End  :	2562
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	125
+	Loc Column :	32
+	Loc Offset :	2534
+	Range Begin:	2536
+	Range End  :	2653
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	25
+	Loc Column :	17
+	Loc Offset :	441
+	Range Begin:	443
+	Range End  :	444
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	22
+	Loc Column :	27
+	Loc Offset :	365
+	Range Begin:	367
+	Range End  :	462
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	66
+	Loc Column :	7
+	Loc Offset :	1237
+	Range Begin:	1239
+	Range End  :	1240
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	66
+	Loc Column :	3
+	Loc Offset :	1233
+	Range Begin:	1235
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	Maxn
+	cursor kind:	DeclRefExpr
+	cursor type:	const int
+	Loc Line   :	35
+	Loc Column :	8
+	Loc Offset :	556
+	Range Begin:	558
+	Range End  :	562
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv1
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	66
+	Loc Column :	20
+	Loc Offset :	1250
+	Range Begin:	1252
+	Range End  :	1257
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	66
+	Loc Column :	3
+	Loc Offset :	1233
+	Range Begin:	1235
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	66
+	Loc Column :	35
+	Loc Offset :	1265
+	Range Begin:	1267
+	Range End  :	1268
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	66
+	Loc Column :	3
+	Loc Offset :	1233
+	Range Begin:	1235
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	94
+	Loc Column :	57
+	Loc Offset :	1822
+	Range Begin:	1824
+	Range End  :	1825
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	45
+	Loc Offset :	1048
+	Range Begin:	1050
+	Range End  :	1051
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	68
+	Loc Column :	12
+	Loc Offset :	1289
+	Range Begin:	1291
+	Range End  :	1292
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	67
+	Loc Column :	8
+	Loc Offset :	1276
+	Range Begin:	1278
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	q
+	cursor kind:	DeclRefExpr
+	cursor type:	priority_queue<Data>
+	Loc Line   :	113
+	Loc Column :	3
+	Loc Offset :	2204
+	Range Begin:	2206
+	Range End  :	2207
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	109
+	Loc Column :	28
+	Loc Offset :	2088
+	Range Begin:	2090
+	Range End  :	2664
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	operator=
+	cursor kind:	DeclRefExpr
+	cursor type:	Data &(Data &&) noexcept
+	Loc Line   :	112
+	Loc Column :	9
+	Loc Offset :	2188
+	Range Begin:	2190
+	Range End  :	2191
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	109
+	Loc Column :	28
+	Loc Offset :	2088
+	Range Begin:	2090
+	Range End  :	2664
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	69
+	Loc Column :	34
+	Loc Offset :	1332
+	Range Begin:	1334
+	Range End  :	1335
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	r
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	66
+	Loc Column :	10
+	Loc Offset :	1240
+	Range Begin:	1242
+	Range End  :	1243
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	66
+	Loc Column :	3
+	Loc Offset :	1233
+	Range Begin:	1235
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	sumv2
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000]
+	Loc Line   :	69
+	Loc Column :	42
+	Loc Offset :	1340
+	Range Begin:	1342
+	Range End  :	1347
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	69
+	Loc Column :	65
+	Loc Offset :	1363
+	Range Begin:	1365
+	Range End  :	1367
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	111
+	Loc Column :	37
+	Loc Offset :	2170
+	Range Begin:	2172
+	Range End  :	2173
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	tot
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	39
+	Loc Column :	29
+	Loc Offset :	636
+	Range Begin:	638
+	Range End  :	641
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	37
+	Loc Column :	27
+	Loc Offset :	597
+	Range Begin:	599
+	Range End  :	711
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	90
+	Loc Column :	10
+	Loc Offset :	1727
+	Range Begin:	1729
+	Range End  :	1730
+	IsVariable :	1
+Cur String:	
+	cursor kind:	WhileStmt
+	cursor type:	
+	Loc Line   :	90
+	Loc Column :	3
+	Loc Offset :	1720
+	Range Begin:	1722
+	Range End  :	1767
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	111
+	Loc Column :	15
+	Loc Offset :	2148
+	Range Begin:	2150
+	Range End  :	2151
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	111
+	Loc Column :	3
+	Loc Offset :	2136
+	Range Begin:	2138
+	Range End  :	2180
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	y
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	69
+	Loc Column :	68
+	Loc Offset :	1366
+	Range Begin:	1368
+	Range End  :	1369
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	95
+	Loc Column :	10
+	Loc Offset :	1850
+	Range Begin:	1852
+	Range End  :	1853
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	87
+	Loc Column :	32
+	Loc Offset :	1686
+	Range Begin:	1688
+	Range End  :	1856
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	69
+	Loc Column :	31
+	Loc Offset :	1329
+	Range Begin:	1331
+	Range End  :	1333
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	r
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	70
+	Loc Column :	23
+	Loc Offset :	1396
+	Range Begin:	1398
+	Range End  :	1399
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	query
+	cursor kind:	DeclRefExpr
+	cursor type:	bool (int, int, int, int)
+	Loc Line   :	71
+	Loc Column :	16
+	Loc Offset :	1433
+	Range Begin:	1435
+	Range End  :	1440
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	70
+	Loc Column :	25
+	Loc Offset :	1398
+	Range Begin:	1400
+	Range End  :	1402
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	71
+	Loc Column :	22
+	Loc Offset :	1439
+	Range Begin:	1441
+	Range End  :	1442
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	122
+	Loc Column :	19
+	Loc Offset :	2473
+	Range Begin:	2475
+	Range End  :	2476
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	71
+	Loc Column :	24
+	Loc Offset :	1441
+	Range Begin:	1443
+	Range End  :	1444
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	121
+	Loc Column :	26
+	Loc Offset :	2449
+	Range Begin:	2451
+	Range End  :	2452
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	120
+	Loc Column :	28
+	Loc Offset :	2422
+	Range Begin:	2424
+	Range End  :	2504
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	71
+	Loc Column :	26
+	Loc Offset :	1443
+	Range Begin:	1445
+	Range End  :	1447
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	r
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	68
+	Loc Column :	14
+	Loc Offset :	1291
+	Range Begin:	1293
+	Range End  :	1294
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	67
+	Loc Column :	8
+	Loc Offset :	1276
+	Range Begin:	1278
+	Range End  :	1468
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	a
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	80
+	Loc Column :	29
+	Loc Offset :	1541
+	Range Begin:	1543
+	Range End  :	1544
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	148
+	Loc Column :	20
+	Loc Offset :	2865
+	Range Begin:	2867
+	Range End  :	2868
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	146
+	Loc Column :	12
+	Loc Offset :	2833
+	Range Begin:	2835
+	Range End  :	3093
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	71
+	Loc Column :	29
+	Loc Offset :	1446
+	Range Begin:	1448
+	Range End  :	1449
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	b
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	80
+	Loc Column :	34
+	Loc Offset :	1546
+	Range Begin:	1548
+	Range End  :	1549
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	c
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	80
+	Loc Column :	40
+	Loc Offset :	1552
+	Range Begin:	1554
+	Range End  :	1555
+	IsVariable :	1
+Cur String:	test/tc.cpp
+	cursor kind:	TranslationUnit
+	cursor type:	
+	Loc Line   :	0
+	Loc Column :	0
+	Loc Offset :	0
+	Range Begin:	2
+	Range End  :	3094
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	b
+	cursor kind:	DeclRefExpr
+	cursor type:	const Data
+	Loc Line   :	82
+	Loc Column :	25
+	Loc Offset :	1625
+	Range Begin:	1627
+	Range End  :	1628
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	82
+	Loc Column :	4
+	Loc Offset :	1604
+	Range Begin:	1606
+	Range End  :	1630
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	p
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	57
+	Loc Column :	11
+	Loc Offset :	1014
+	Range Begin:	1016
+	Range End  :	1017
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	89
+	Loc Column :	3
+	Loc Offset :	1711
+	Range Begin:	1713
+	Range End  :	1714
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	87
+	Loc Column :	32
+	Loc Offset :	1686
+	Range Begin:	1688
+	Range End  :	1856
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	u
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	89
+	Loc Column :	7
+	Loc Offset :	1715
+	Range Begin:	1717
+	Range End  :	1718
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	87
+	Loc Column :	32
+	Loc Offset :	1686
+	Range Begin:	1688
+	Range End  :	1856
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	58
+	Loc Column :	9
+	Loc Offset :	1060
+	Range Begin:	1062
+	Range End  :	1064
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	59
+	Loc Column :	13
+	Loc Offset :	1109
+	Range Begin:	1111
+	Range End  :	1112
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	55
+	Loc Column :	8
+	Loc Offset :	981
+	Range Begin:	983
+	Range End  :	1135
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cnt
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	91
+	Loc Column :	10
+	Loc Offset :	1741
+	Range Begin:	1743
+	Range End  :	1746
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	90
+	Loc Column :	13
+	Loc Offset :	1730
+	Range Begin:	1732
+	Range End  :	1767
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	v
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	92
+	Loc Column :	4
+	Loc Offset :	1755
+	Range Begin:	1757
+	Range End  :	1758
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	90
+	Loc Column :	13
+	Loc Offset :	1730
+	Range Begin:	1732
+	Range End  :	1767
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	94
+	Loc Column :	15
+	Loc Offset :	1780
+	Range Begin:	1782
+	Range End  :	1783
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	l
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	45
+	Loc Column :	34
+	Loc Offset :	771
+	Range Begin:	773
+	Range End  :	774
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	44
+	Loc Column :	26
+	Loc Offset :	736
+	Range Begin:	738
+	Range End  :	859
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	o
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	50
+	Loc Column :	3
+	Loc Offset :	905
+	Range Begin:	907
+	Range End  :	908
+	IsVariable :	1
+Cur String:	
+	cursor kind:	CompoundStmt
+	cursor type:	
+	Loc Line   :	49
+	Loc Column :	43
+	Loc Offset :	901
+	Range Begin:	903
+	Range End  :	1137
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	ch
+	cursor kind:	DeclRefExpr
+	cursor type:	int [15000000][2]
+	Loc Line   :	57
+	Loc Column :	34
+	Loc Offset :	1037
+	Range Begin:	1039
+	Range End  :	1041
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	57
+	Loc Column :	4
+	Loc Offset :	1007
+	Range Begin:	1009
+	Range End  :	1097
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	cnt
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	94
+	Loc Column :	18
+	Loc Offset :	1783
+	Range Begin:	1785
+	Range End  :	1788
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	i
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	94
+	Loc Column :	22
+	Loc Offset :	1787
+	Range Begin:	1789
+	Range End  :	1790
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	m
+	cursor kind:	DeclRefExpr
+	cursor type:	int
+	Loc Line   :	70
+	Loc Column :	19
+	Loc Offset :	1392
+	Range Begin:	1394
+	Range End  :	1395
+	IsVariable :	1
+Cur String:	
+	cursor kind:	IfStmt
+	cursor type:	
+	Loc Line   :	69
+	Loc Column :	4
+	Loc Offset :	1302
+	Range Begin:	1304
+	Range End  :	1463
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	x
+	cursor kind:	DeclRefExpr
+	cursor type:	Data
+	Loc Line   :	94
+	Loc Column :	27
+	Loc Offset :	1792
+	Range Begin:	1794
+	Range End  :	1795
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
+==========DECLREF_DELIMETER========
+
+Cur String:	update
+	cursor kind:	DeclRefExpr
+	cursor type:	int (int, int, int, int, int)
+	Loc Line   :	94
+	Loc Column :	37
+	Loc Offset :	1802
+	Range Begin:	1799
+	Range End  :	1810
+	IsVariable :	1
+Cur String:	
+	cursor kind:	ForStmt
+	cursor type:	
+	Loc Line   :	94
+	Loc Column :	3
+	Loc Offset :	1768
+	Range Begin:	1770
+	Range End  :	1841
+	IsVariable :	0
