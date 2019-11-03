@@ -2,6 +2,7 @@
 #define CPPSYNTH_MISC_H
 
 #include <src/CurInfo.h>
+#include <src/LibClangUtil.h>
 
 #include <clang-c/Index.h>
 
@@ -12,11 +13,12 @@ namespace std {
     struct equal_to<CXCursor>
     {
         bool operator()(const CXCursor& c1, const CXCursor& c2) const {
-            return (
-                        (c1.kind == c2.kind)
-                    &&  (c1.xdata == c2.xdata)
-                    &&  (*(c1.data) == *(c2.data))
-                );
+            return LibClangUtil::isTwoCursorEqual(c1, c2);
+        //    return (
+        //                (c1.kind == c2.kind)
+        //            &&  (c1.xdata == c2.xdata)
+        //            &&  (*(c1.data) == *(c2.data))
+        //        );
         }
     };
     

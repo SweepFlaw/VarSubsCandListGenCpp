@@ -22,6 +22,11 @@ public:
     static bool isCursorScopeSeparatePoint(CXCursor c);
     static bool isCursorScopeSeparatePoint(CXCursorKind ck);
     static bool isCursorUeContent(CXCursor c);
+    static bool isTwoCursorEqual(const CXCursor& c1, const CXCursor& c2);
+    static bool isCursorDecl(CXCursorKind ck);
+    static bool isCursorDecl(CXCursor c);
+    static bool isCursorRefExpr(CXCursorKind ck);
+    static bool isCursorRefExpr(CXCursor c);
 
     static CXSourceRange getCurRange(CXCursor c);
 

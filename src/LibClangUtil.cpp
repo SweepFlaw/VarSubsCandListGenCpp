@@ -89,12 +89,41 @@ bool LibClangUtil::isCursorScopeSeparatePoint(CXCursorKind ck){
             ||  ck == CXCursor_IfStmt
             ||  ck == CXCursor_SwitchStmt
             ||  ck == CXCursor_WhileStmt
+            ||  ck == CXCursor_TranslationUnit
+            ||  ck == CXCursor_FunctionDecl
     );
 }
 
 bool LibClangUtil::isCursorUeContent(CXCursor c){
     CXCursorKind ck = clang_getCursorKind(c);
     return clang_isUnexposed(ck);
+}
+
+bool LibClangUtil::isTwoCursorEqual(const CXCursor& c1, const CXCursor& c2){
+    return (
+            (c1.kind == c2.kind)
+        &&  (c1.xdata == c2.xdata)
+        &&  (*(c1.data) == *(c2.data))
+    );
+}
+
+bool LibClangUtil::isCursorDecl(CXCursorKind ck){
+    return (    ck == CXCursor_VarDecl
+            ||  ck == CXCursor_ParmDecl
+            //||  ck == CXCursor_FunctionDecl
+    );
+}
+
+bool LibClangUtil::isCursorDecl(CXCursor c){
+    return isCursorDecl(clang_getCursorKind(c));
+}
+
+bool LibClangUtil::isCursorRefExpr(CXCursorKind ck){
+    return (ck == CXCursor_DeclRefExpr);
+}
+
+bool LibClangUtil::isCursorRefExpr(CXCursor c){
+    return isCursorRefExpr(clang_getCursorKind(c));
 }
 
 CXSourceRange LibClangUtil::getCurRange(CXCursor c){

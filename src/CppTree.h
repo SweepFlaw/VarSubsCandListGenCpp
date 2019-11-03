@@ -26,8 +26,11 @@ public:
             std::unordered_map<CXCursor, std::vector<CXCursor>> childs;
             std::unordered_map<CXCursor, CXCursor> parent;
         };
+    // Construct cursorAST based on offset Range information.
     curTree getCursorTree();
 
+    // varDeclSM is the ["var-decl-cursor" -> "scope-determine-cursor"] map 
+    // varDRefSM is the ["var-refExpr-cursor" -> "scope-determine-cursor"] map
     using varScopeMap = 
         struct {
             std::unordered_map<CXCursor, CXCursor> varDeclSM;
@@ -36,9 +39,11 @@ public:
     varScopeMap getVarScopeMap(curTree& ctree);
     varScopeMap getVarScopeMap();
 
-    //using varSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
-    //varSubsCandMap getVarSubsCandMap(curTree& ctree);
-    //varSubsCandMap getVarSubsCandMap();
+    // varSubsCandMap is the ["var-refExpr-cursor" -> "available var-decl-cursors"] map
+    using varSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
+    varSubsCandMap getVarSubsCandMap(curTree& ctree, varScopeMap& vsmap);
+    varSubsCandMap getVarSubsCandMap(curTree& ctree);
+    varSubsCandMap getVarSubsCandMap();
     
 };
 
