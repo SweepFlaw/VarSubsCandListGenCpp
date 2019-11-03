@@ -83,14 +83,20 @@ bool LibClangUtil::isCursorScopeSeparatePoint(CXCursor c){
 }
 
 bool LibClangUtil::isCursorScopeSeparatePoint(CXCursorKind ck){
-    return (    ck == CXCursor_CompoundStmt
+    return (    
+            // statements
+            ck == CXCursor_CompoundStmt
             ||  ck == CXCursor_DoStmt
             ||  ck == CXCursor_ForStmt
             ||  ck == CXCursor_IfStmt
             ||  ck == CXCursor_SwitchStmt
             ||  ck == CXCursor_WhileStmt
+            // RootNode
             ||  ck == CXCursor_TranslationUnit
+            // declarations
             ||  ck == CXCursor_FunctionDecl
+            ||  ck == CXCursor_StructDecl
+            ||  ck == CXCursor_ClassDecl
     );
 }
 
