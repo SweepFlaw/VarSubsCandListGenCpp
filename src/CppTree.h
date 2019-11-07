@@ -2,14 +2,13 @@
 #define CPPSYNTH_CPPTREE_H
 
 #include <src/misc.h>
-//#include <src/VarInfo.h>
-#include <src/VarSubsCandMap.h>
 
 #include <clang-c/Index.h>
 
 #include <unordered_map>
 #include <string>
 #include <utility>
+#include <vector>
 
 class CppTree {
 public:
@@ -40,10 +39,12 @@ public:
     varScopeMap getVarScopeMap();
 
     // varSubsCandMap is the ["var-refExpr-cursor" -> "available var-decl-cursors"] map
+    // apply selectMode 0 for no filtering (only scope results are applied)
+    // (selectMode % 10 == 1) for select the candidate which has exactly the same type (e.g. "const int" != "int")
     using varSubsCandMap = std::unordered_map<CXCursor, std::vector<CXCursor>>;
-    varSubsCandMap getVarSubsCandMap(curTree& ctree, varScopeMap& vsmap);
-    varSubsCandMap getVarSubsCandMap(curTree& ctree);
-    varSubsCandMap getVarSubsCandMap();
+    varSubsCandMap getVarSubsCandMap(curTree& ctree, varScopeMap& vsmap, unsigned selectMode=0);
+    varSubsCandMap getVarSubsCandMap(curTree& ctree, unsigned selectMode=0);
+    varSubsCandMap getVarSubsCandMap(unsigned selectMode=0);
     
 };
 

@@ -240,18 +240,24 @@ CppTree::varScopeMap CppTree::getVarScopeMap(){
     return getVarScopeMap(ctree);
 }
 
-CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree, varScopeMap& vsmap){
+// apply selectMode 0 for no filtering (only scope results are applied)
+// (selectMode % 10 == 1) for select the candidate which has exactly the same type (e.g. "const int" != "int")
+CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree, varScopeMap& vsmap, unsigned selectMode){
     varSubsCandMap vscm;
     auto parInfo = ctree.parent;
 
     for(auto decl : vsmap.varDeclSM){
         auto declScopeCursor = decl.second;
         for(auto refe : vsmap.varDRefSM){
-            // if two variable types are different, skip it.
-            auto decltyp = clang_getCursorType(decl.first);
-            auto refetyp = clang_getCursorType(refe.first);
-            if(!clang_equalTypes(decltyp, refetyp)){
-                continue;
+
+            // CASE (trimMode % 10 == 1)
+            if(selectMode % 10 == 1){
+                // if two variable types are different, skip it.
+                auto decltyp = clang_getCursorType(decl.first);
+                auto refetyp = clang_getCursorType(refe.first);
+                if(!clang_equalTypes(decltyp, refetyp)){
+                    continue;
+                }
             }
 
             auto refScopeCursor = refe.second;
@@ -293,12 +299,12 @@ CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree, varScopeMap& 
     return vscm;
 }
 
-CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree){
+CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree, unsigned selectMode){
     auto vsm = getVarScopeMap(ctree);
-    return getVarSubsCandMap(ctree, vsm);
+    return getVarSubsCandMap(ctree, vsm, selectMode);
 }
 
-CppTree::varSubsCandMap CppTree::getVarSubsCandMap(){
+CppTree::varSubsCandMap CppTree::getVarSubsCandMap(unsigned selectMode){
     auto ctree = getCursorTree();
-    return getVarSubsCandMap(ctree);
+    return getVarSubsCandMap(ctree, selectMode);
 }
