@@ -241,7 +241,8 @@ CppTree::varScopeMap CppTree::getVarScopeMap(){
 }
 
 // apply selectMode 0 for no filtering (only scope results are applied)
-// (selectMode % 10 == 1) for select the candidate which has exactly the same type (e.g. "const int" != "int")
+// selectMode == 1 for select the candidate which has exactly the same type (e.g. "const int" != "int")
+// selectMode == 2 for excludes "operator>>", "operator<<", "cin", "cout"
 CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree, varScopeMap& vsmap, unsigned selectMode){
     varSubsCandMap vscm;
     auto parInfo = ctree.parent;
@@ -250,12 +251,46 @@ CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree, varScopeMap& 
         auto declScopeCursor = decl.second;
         for(auto refe : vsmap.varDRefSM){
 
-            // CASE (trimMode % 10 == 1)
-            if(selectMode % 10 == 1){
+            // SELECT MODES
+            if(selectMode == 1){
                 // if two variable types are different, skip it.
                 auto decltyp = clang_getCursorType(decl.first);
                 auto refetyp = clang_getCursorType(refe.first);
                 if(!clang_equalTypes(decltyp, refetyp)){
+                    continue;
+                }
+            }
+            else if(selectMode == 2){
+                // if decl's cursor string means operator, skip it.
+                string declCurStr = LibClangUtil::getCurStr(decl.first);
+                if( (declCurStr.length() > 8)
+                    &&  (   (declCurStr.compare(0,8, "operator"))                        
+                            &&  (       declCurStr.compare(8, 1, "=")
+                                    ||  declCurStr.compare(8, 1, "+")
+                                    ||  declCurStr.compare(8, 1, "-")
+                                    ||  declCurStr.compare(8, 1, "*")
+                                    ||  declCurStr.compare(8, 1, "/")
+                                    ||  declCurStr.compare(8, 1, "%")
+                                    ||  declCurStr.compare(8, 1, "!")
+                                    ||  declCurStr.compare(8, 1, ">")
+                                    ||  declCurStr.compare(8, 1, "<")
+                                    ||  declCurStr.compare(8, 1, "&")
+                                    ||  declCurStr.compare(8, 1, "|")
+                                    ||  declCurStr.compare(8, 1, "~")
+                                    ||  declCurStr.compare(8, 1, "^")
+                                    ||  declCurStr.compare(8, 1, "[")
+                                    ||  declCurStr.compare(8, 1, ".")
+                                    ||  declCurStr.compare(8, 1, "(")
+                                    ||  declCurStr.compare(8, 1, ",")
+                                    ||  declCurStr.compare(8, 1, "\"")
+                                    ||  declCurStr.compare(8, 1, ":")
+                                    ||  declCurStr.compare(8, 1, "=")
+                                    ||  declCurStr.compare(8, 1, "=")
+                                    ||  declCurStr.compare(8, 1, "=")
+
+                                )
+                        )
+                ) {
                     continue;
                 }
             }
