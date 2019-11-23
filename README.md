@@ -5,7 +5,10 @@ Variable Substitution Candidate List Generator for a Cpp file.
 ```
 #
 # <compile>
+# (example executed at) Ubuntu 18.04
 #
+apt install clang libclang-dev make
+mkdir bin
 make
 
 #
