@@ -261,33 +261,29 @@ CppTree::varSubsCandMap CppTree::getVarSubsCandMap(curTree& ctree, varScopeMap& 
                 }
             }
             else if(selectMode == 2){
-                // if decl's cursor string means operator, skip it.
-                string declCurStr = LibClangUtil::getCurStr(decl.first);
-                if( (declCurStr.length() > 8)
-                    &&  (   (declCurStr.compare(0,8, "operator"))                        
-                            &&  (       declCurStr.compare(8, 1, "=")
-                                    ||  declCurStr.compare(8, 1, "+")
-                                    ||  declCurStr.compare(8, 1, "-")
-                                    ||  declCurStr.compare(8, 1, "*")
-                                    ||  declCurStr.compare(8, 1, "/")
-                                    ||  declCurStr.compare(8, 1, "%")
-                                    ||  declCurStr.compare(8, 1, "!")
-                                    ||  declCurStr.compare(8, 1, ">")
-                                    ||  declCurStr.compare(8, 1, "<")
-                                    ||  declCurStr.compare(8, 1, "&")
-                                    ||  declCurStr.compare(8, 1, "|")
-                                    ||  declCurStr.compare(8, 1, "~")
-                                    ||  declCurStr.compare(8, 1, "^")
-                                    ||  declCurStr.compare(8, 1, "[")
-                                    ||  declCurStr.compare(8, 1, ".")
-                                    ||  declCurStr.compare(8, 1, "(")
-                                    ||  declCurStr.compare(8, 1, ",")
-                                    ||  declCurStr.compare(8, 1, "\"")
-                                    ||  declCurStr.compare(8, 1, ":")
-                                    ||  declCurStr.compare(8, 1, "=")
-                                    ||  declCurStr.compare(8, 1, "=")
-                                    ||  declCurStr.compare(8, 1, "=")
-
+                // if refe's cursor string means operator, skip it.
+                string refeCurStr = LibClangUtil::getCurStr(refe.first);
+                if( (refeCurStr.length() > 8)
+                    &&  (   (refeCurStr.compare(0,8, "operator") == 0)                        
+                            &&  (       refeCurStr.compare(8, 1, "=") == 0
+                                    ||  refeCurStr.compare(8, 1, "+") == 0
+                                    ||  refeCurStr.compare(8, 1, "-") == 0
+                                    ||  refeCurStr.compare(8, 1, "*") == 0
+                                    ||  refeCurStr.compare(8, 1, "/") == 0
+                                    ||  refeCurStr.compare(8, 1, "%") == 0
+                                    ||  refeCurStr.compare(8, 1, "!") == 0
+                                    ||  refeCurStr.compare(8, 1, ">") == 0
+                                    ||  refeCurStr.compare(8, 1, "<") == 0
+                                    ||  refeCurStr.compare(8, 1, "&") == 0
+                                    ||  refeCurStr.compare(8, 1, "|") == 0
+                                    ||  refeCurStr.compare(8, 1, "~") == 0
+                                    ||  refeCurStr.compare(8, 1, "^") == 0
+                                    ||  refeCurStr.compare(8, 1, "[") == 0
+                                    ||  refeCurStr.compare(8, 1, ".") == 0
+                                    ||  refeCurStr.compare(8, 1, "(") == 0
+                                    ||  refeCurStr.compare(8, 1, ",") == 0
+                                    ||  refeCurStr.compare(8, 1, "\"") == 0
+                                    ||  refeCurStr.compare(8, 1, ":") == 0
                                 )
                         )
                 ) {
